@@ -1,0 +1,19 @@
+<div class="form-container">
+    <h2>Add a New Note</h2>
+    <form [formGroup]="noteForm" (ngSubmit)="addNote()">
+      <label for="title">Title:</label>
+      <input id="title" formControlName="title" placeholder="Enter title" required />
+      <small *ngIf="noteForm.controls['title'].invalid && noteForm.controls['title'].touched">
+        Title is required (min 1 characters).
+      </small>
+  
+      <label for="description">Description:</label>
+      <textarea id="description" formControlName="description" placeholder="Enter description" required></textarea>
+      <small *ngIf="noteForm.controls['description'].invalid && noteForm.controls['description'].touched">
+        Description is required (min 1 characters).
+      </small>
+  
+      <button type="submit" [disabled]="noteForm.invalid">Add Note</button>
+    </form>
+  </div>
+  

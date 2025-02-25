@@ -1,0 +1,23 @@
+<div class="edit-note-container">
+    <h2>Edit Note</h2>
+  
+    <form (ngSubmit)="saveNote()">
+      <div>
+        <label for="title">Title:</label>
+        <input type="text" id="title" [(ngModel)]="note.title" name="title" required />
+      </div>
+  
+      <div>
+        <label for="description">Description:</label>
+        <textarea
+          id="description"
+          [(ngModel)]="note.description"
+          name="description"
+          required
+        ></textarea>
+      </div>
+  
+      <button type="submit">Save Note</button>
+    </form>
+  </div>
+  

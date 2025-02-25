@@ -1,0 +1,14 @@
+<div class="note" (click)="onNoteClick($event)">
+    <h3>{{ note.title }}</h3>
+    <p>{{ note.description }}</p>
+    <p>{{ note.created }}</p>
+
+    <div class="icons">
+        <button (click)="editNote($event)" class="edit-btn">
+          ✏️ Edit
+        </button>
+        <button (click)="deleteNote($event)" class="delete-btn">
+          🗑️ Delete
+        </button>
+      </div>
+  </div>
