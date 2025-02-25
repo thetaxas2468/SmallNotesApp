@@ -1,0 +1,16 @@
+# Ignore node_modules (Angular)
+frontend/node_modules
+
+# Ignore bin and obj (ASP.NET)
+backend/bin
+backend/obj
+
+# Ignore environment files
+frontend/.env
+backend/.env
+
+
+backend/SimpleNotesApi/
+backend/SimpleNotesApi/bin
+backend/SimpleNotesApi/obj
+backend/SimpleNotesApi/Migrations

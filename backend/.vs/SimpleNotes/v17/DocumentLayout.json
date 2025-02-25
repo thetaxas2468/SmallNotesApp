@@ -1,0 +1,173 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\karam\\source\\repos\\SimpleNotes\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{5A4EEE41-1529-4333-99AB-64A1FD73E17C}|SimpleNotesApi\\SimpleNotesApi.csproj|c:\\users\\karam\\source\\repos\\simplenotes\\simplenotesapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5A4EEE41-1529-4333-99AB-64A1FD73E17C}|SimpleNotesApi\\SimpleNotesApi.csproj|solutionrelative:simplenotesapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5A4EEE41-1529-4333-99AB-64A1FD73E17C}|SimpleNotesApi\\SimpleNotesApi.csproj|c:\\users\\karam\\source\\repos\\simplenotes\\simplenotesapi\\services\\notesservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5A4EEE41-1529-4333-99AB-64A1FD73E17C}|SimpleNotesApi\\SimpleNotesApi.csproj|solutionrelative:simplenotesapi\\services\\notesservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5A4EEE41-1529-4333-99AB-64A1FD73E17C}|SimpleNotesApi\\SimpleNotesApi.csproj|c:\\users\\karam\\source\\repos\\simplenotes\\simplenotesapi\\repositories\\notesrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5A4EEE41-1529-4333-99AB-64A1FD73E17C}|SimpleNotesApi\\SimpleNotesApi.csproj|solutionrelative:simplenotesapi\\repositories\\notesrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5A4EEE41-1529-4333-99AB-64A1FD73E17C}|SimpleNotesApi\\SimpleNotesApi.csproj|c:\\users\\karam\\source\\repos\\simplenotes\\simplenotesapi\\models\\note.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5A4EEE41-1529-4333-99AB-64A1FD73E17C}|SimpleNotesApi\\SimpleNotesApi.csproj|solutionrelative:simplenotesapi\\models\\note.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5A4EEE41-1529-4333-99AB-64A1FD73E17C}|SimpleNotesApi\\SimpleNotesApi.csproj|c:\\users\\karam\\source\\repos\\simplenotes\\simplenotesapi\\interfaces\\inotesrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5A4EEE41-1529-4333-99AB-64A1FD73E17C}|SimpleNotesApi\\SimpleNotesApi.csproj|solutionrelative:simplenotesapi\\interfaces\\inotesrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5A4EEE41-1529-4333-99AB-64A1FD73E17C}|SimpleNotesApi\\SimpleNotesApi.csproj|c:\\users\\karam\\source\\repos\\simplenotes\\simplenotesapi\\dtos\\descriptiontitlenote.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5A4EEE41-1529-4333-99AB-64A1FD73E17C}|SimpleNotesApi\\SimpleNotesApi.csproj|solutionrelative:simplenotesapi\\dtos\\descriptiontitlenote.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5A4EEE41-1529-4333-99AB-64A1FD73E17C}|SimpleNotesApi\\SimpleNotesApi.csproj|c:\\users\\karam\\source\\repos\\simplenotes\\simplenotesapi\\database\\simplenotescontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5A4EEE41-1529-4333-99AB-64A1FD73E17C}|SimpleNotesApi\\SimpleNotesApi.csproj|solutionrelative:simplenotesapi\\database\\simplenotescontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5A4EEE41-1529-4333-99AB-64A1FD73E17C}|SimpleNotesApi\\SimpleNotesApi.csproj|c:\\users\\karam\\source\\repos\\simplenotes\\simplenotesapi\\controllers\\notescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5A4EEE41-1529-4333-99AB-64A1FD73E17C}|SimpleNotesApi\\SimpleNotesApi.csproj|solutionrelative:simplenotesapi\\controllers\\notescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5A4EEE41-1529-4333-99AB-64A1FD73E17C}|SimpleNotesApi\\SimpleNotesApi.csproj|c:\\users\\karam\\source\\repos\\simplenotes\\simplenotesapi\\interfaces\\inotesservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5A4EEE41-1529-4333-99AB-64A1FD73E17C}|SimpleNotesApi\\SimpleNotesApi.csproj|solutionrelative:simplenotesapi\\interfaces\\inotesservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 3,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "DescriptionTitleNote.cs",
+              "DocumentMoniker": "C:\\Users\\karam\\source\\repos\\SimpleNotes\\SimpleNotesApi\\DTOs\\DescriptionTitleNote.cs",
+              "RelativeDocumentMoniker": "SimpleNotesApi\\DTOs\\DescriptionTitleNote.cs",
+              "ToolTip": "C:\\Users\\karam\\source\\repos\\SimpleNotes\\SimpleNotesApi\\DTOs\\DescriptionTitleNote.cs",
+              "RelativeToolTip": "SimpleNotesApi\\DTOs\\DescriptionTitleNote.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAvAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-25T22:14:50.854Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Note.cs",
+              "DocumentMoniker": "C:\\Users\\karam\\source\\repos\\SimpleNotes\\SimpleNotesApi\\Models\\Note.cs",
+              "RelativeDocumentMoniker": "SimpleNotesApi\\Models\\Note.cs",
+              "ToolTip": "C:\\Users\\karam\\source\\repos\\SimpleNotes\\SimpleNotesApi\\Models\\Note.cs",
+              "RelativeToolTip": "SimpleNotesApi\\Models\\Note.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-23T18:29:30.273Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "SimpleNotesContext.cs",
+              "DocumentMoniker": "C:\\Users\\karam\\source\\repos\\SimpleNotes\\SimpleNotesApi\\Database\\SimpleNotesContext.cs",
+              "RelativeDocumentMoniker": "SimpleNotesApi\\Database\\SimpleNotesContext.cs",
+              "ToolTip": "C:\\Users\\karam\\source\\repos\\SimpleNotes\\SimpleNotesApi\\Database\\SimpleNotesContext.cs",
+              "RelativeToolTip": "SimpleNotesApi\\Database\\SimpleNotesContext.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAuAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-23T17:19:16.176Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\karam\\source\\repos\\SimpleNotes\\SimpleNotesApi\\Program.cs",
+              "RelativeDocumentMoniker": "SimpleNotesApi\\Program.cs",
+              "ToolTip": "C:\\Users\\karam\\source\\repos\\SimpleNotes\\SimpleNotesApi\\Program.cs",
+              "RelativeToolTip": "SimpleNotesApi\\Program.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAABEAAAAUAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-23T17:19:00.089Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "NotesRepository.cs",
+              "DocumentMoniker": "C:\\Users\\karam\\source\\repos\\SimpleNotes\\SimpleNotesApi\\Repositories\\NotesRepository.cs",
+              "RelativeDocumentMoniker": "SimpleNotesApi\\Repositories\\NotesRepository.cs",
+              "ToolTip": "C:\\Users\\karam\\source\\repos\\SimpleNotes\\SimpleNotesApi\\Repositories\\NotesRepository.cs",
+              "RelativeToolTip": "SimpleNotesApi\\Repositories\\NotesRepository.cs",
+              "ViewState": "AgIAAHgAAAAAAAAAAAAAAIQAAAAoAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-23T17:14:49.851Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "INotesService.cs",
+              "DocumentMoniker": "C:\\Users\\karam\\source\\repos\\SimpleNotes\\SimpleNotesApi\\Interfaces\\INotesService.cs",
+              "RelativeDocumentMoniker": "SimpleNotesApi\\Interfaces\\INotesService.cs",
+              "ToolTip": "C:\\Users\\karam\\source\\repos\\SimpleNotes\\SimpleNotesApi\\Interfaces\\INotesService.cs",
+              "RelativeToolTip": "SimpleNotesApi\\Interfaces\\INotesService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAnAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-23T17:14:01.957Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "NotesService.cs",
+              "DocumentMoniker": "C:\\Users\\karam\\source\\repos\\SimpleNotes\\SimpleNotesApi\\Services\\NotesService.cs",
+              "RelativeDocumentMoniker": "SimpleNotesApi\\Services\\NotesService.cs",
+              "ToolTip": "C:\\Users\\karam\\source\\repos\\SimpleNotes\\SimpleNotesApi\\Services\\NotesService.cs",
+              "RelativeToolTip": "SimpleNotesApi\\Services\\NotesService.cs",
+              "ViewState": "AgIAADMAAAAAAAAAAADwvz8AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-23T17:13:42.774Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "INotesRepository.cs",
+              "DocumentMoniker": "C:\\Users\\karam\\source\\repos\\SimpleNotes\\SimpleNotesApi\\Interfaces\\INotesRepository.cs",
+              "RelativeDocumentMoniker": "SimpleNotesApi\\Interfaces\\INotesRepository.cs",
+              "ToolTip": "C:\\Users\\karam\\source\\repos\\SimpleNotes\\SimpleNotesApi\\Interfaces\\INotesRepository.cs",
+              "RelativeToolTip": "SimpleNotesApi\\Interfaces\\INotesRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAABEAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-23T17:03:17.193Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "NotesController.cs",
+              "DocumentMoniker": "C:\\Users\\karam\\source\\repos\\SimpleNotes\\SimpleNotesApi\\Controllers\\NotesController.cs",
+              "RelativeDocumentMoniker": "SimpleNotesApi\\Controllers\\NotesController.cs",
+              "ToolTip": "C:\\Users\\karam\\source\\repos\\SimpleNotes\\SimpleNotesApi\\Controllers\\NotesController.cs",
+              "RelativeToolTip": "SimpleNotesApi\\Controllers\\NotesController.cs",
+              "ViewState": "AgIAADAAAAAAAAAAAAAAADsAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-23T17:03:15.048Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

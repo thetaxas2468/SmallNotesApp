@@ -1,0 +1,158 @@
+{
+  "openapi": "3.0.1",
+  "info": {
+    "title": "SimpleNotesApi",
+    "version": "1.0"
+  },
+  "paths": {
+    "/api/Notes": {
+      "get": {
+        "tags": [
+          "Notes"
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      },
+      "post": {
+        "tags": [
+          "Notes"
+        ],
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/DescriptionTitleNote"
+              }
+            },
+            "text/json": {
+              "schema": {
+                "$ref": "#/components/schemas/DescriptionTitleNote"
+              }
+            },
+            "application/*+json": {
+              "schema": {
+                "$ref": "#/components/schemas/DescriptionTitleNote"
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/api/Notes/{id}": {
+      "get": {
+        "tags": [
+          "Notes"
+        ],
+        "parameters": [
+          {
+            "name": "id",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "integer",
+              "format": "int32"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      },
+      "delete": {
+        "tags": [
+          "Notes"
+        ],
+        "parameters": [
+          {
+            "name": "id",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "integer",
+              "format": "int32"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/api/Notes/edit/{id}": {
+      "put": {
+        "tags": [
+          "Notes"
+        ],
+        "parameters": [
+          {
+            "name": "id",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "integer",
+              "format": "int32"
+            }
+          }
+        ],
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/DescriptionTitleNote"
+              }
+            },
+            "text/json": {
+              "schema": {
+                "$ref": "#/components/schemas/DescriptionTitleNote"
+              }
+            },
+            "application/*+json": {
+              "schema": {
+                "$ref": "#/components/schemas/DescriptionTitleNote"
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    }
+  },
+  "components": {
+    "schemas": {
+      "DescriptionTitleNote": {
+        "required": [
+          "description",
+          "title"
+        ],
+        "type": "object",
+        "properties": {
+          "description": {
+            "minLength": 5,
+            "type": "string"
+          },
+          "title": {
+            "minLength": 3,
+            "type": "string"
+          }
+        },
+        "additionalProperties": false
+      }
+    }
+  }
+}

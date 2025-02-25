@@ -1,0 +1,743 @@
+2025-02-26 00:17:43 [Level: Information] Now listening on: "https://localhost:7123" 
+2025-02-26 00:17:43 [Level: Information] Now listening on: "http://localhost:5215" 
+2025-02-26 00:17:43 [Level: Information] Application started. Press Ctrl+C to shut down. 
+2025-02-26 00:17:43 [Level: Information] Hosting environment: "Development" 
+2025-02-26 00:17:43 [Level: Information] Content root path: "C:\Users\karam\source\repos\SimpleNotes\SimpleNotesApi" 
+2025-02-26 00:17:43 [Level: Information] Request starting "HTTP/2" "GET" "https"://"localhost:7123""""/swagger""" - null null 
+2025-02-26 00:17:44 [Level: Information] Request finished "HTTP/2" "GET" "https"://"localhost:7123""""/swagger""" - 301 0 null 162.6665ms 
+2025-02-26 00:17:44 [Level: Information] Request starting "HTTP/2" "GET" "https"://"localhost:7123""""/swagger/index.html""" - null null 
+2025-02-26 00:17:44 [Level: Information] Request finished "HTTP/2" "GET" "https"://"localhost:7123""""/swagger/index.html""" - 200 null "text/html;charset=utf-8" 56.2668ms 
+2025-02-26 00:17:44 [Level: Information] Request starting "HTTP/2" "GET" "https"://"localhost:7123""""/swagger/swagger-ui-bundle.js""" - null null 
+2025-02-26 00:17:44 [Level: Information] Request starting "HTTP/2" "GET" "https"://"localhost:7123""""/swagger/swagger-ui.css""" - null null 
+2025-02-26 00:17:44 [Level: Information] Request starting "HTTP/2" "GET" "https"://"localhost:7123""""/swagger/swagger-ui-standalone-preset.js""" - null null 
+2025-02-26 00:17:44 [Level: Information] Request starting "HTTP/2" "GET" "https"://"localhost:7123""""/_framework/aspnetcore-browser-refresh.js""" - null null 
+2025-02-26 00:17:44 [Level: Information] Request finished "HTTP/2" "GET" "https"://"localhost:7123""""/_framework/aspnetcore-browser-refresh.js""" - 200 13780 "application/javascript; charset=utf-8" 43.2358ms 
+2025-02-26 00:17:44 [Level: Information] Sending file. Request path: '"/swagger-ui-standalone-preset.js"'. Physical path: '"N/A"' 
+2025-02-26 00:17:44 [Level: Information] Sending file. Request path: '"/swagger-ui.css"'. Physical path: '"N/A"' 
+2025-02-26 00:17:44 [Level: Information] Request finished "HTTP/2" "GET" "https"://"localhost:7123""""/swagger/swagger-ui.css""" - 200 152034 "text/css" 87.7851ms 
+2025-02-26 00:17:44 [Level: Information] Request finished "HTTP/2" "GET" "https"://"localhost:7123""""/swagger/swagger-ui-standalone-preset.js""" - 200 230280 "text/javascript" 87.381ms 
+2025-02-26 00:17:44 [Level: Information] Sending file. Request path: '"/swagger-ui-bundle.js"'. Physical path: '"N/A"' 
+2025-02-26 00:17:44 [Level: Information] Request finished "HTTP/2" "GET" "https"://"localhost:7123""""/swagger/swagger-ui-bundle.js""" - 200 1456926 "text/javascript" 93.8471ms 
+2025-02-26 00:17:44 [Level: Information] Request starting "HTTP/2" "GET" "https"://"localhost:7123""""/_vs/browserLink""" - null null 
+2025-02-26 00:17:44 [Level: Information] Request finished "HTTP/2" "GET" "https"://"localhost:7123""""/_vs/browserLink""" - 200 null "text/javascript; charset=UTF-8" 59.0616ms 
+2025-02-26 00:17:44 [Level: Information] Request starting "HTTP/2" "GET" "https"://"localhost:7123""""/swagger/v1/swagger.json""" - null null 
+2025-02-26 00:17:44 [Level: Information] Request finished "HTTP/2" "GET" "https"://"localhost:7123""""/swagger/v1/swagger.json""" - 200 null "application/json;charset=utf-8" 18.1729ms 
+2025-02-26 00:17:46 [Level: Information] Request starting "HTTP/2" "GET" "https"://"localhost:7123""""/api/Notes""" - null null 
+2025-02-26 00:17:46 [Level: Information] CORS policy execution successful. 
+2025-02-26 00:17:47 [Level: Information] Executing endpoint '"SimpleNotesApi.Controllers.NotesController.Index (SimpleNotesApi)"' 
+2025-02-26 00:17:47 [Level: Information] Route matched with "{action = \"Index\", controller = \"Notes\"}". Executing controller action with signature "System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Index()" on controller "SimpleNotesApi.Controllers.NotesController" ("SimpleNotesApi"). 
+2025-02-26 00:17:48 [Level: Information] Request starting "HTTP/2" "GET" "https"://"localhost:7123""""/api/Notes""" - null null 
+2025-02-26 00:17:48 [Level: Information] CORS policy execution successful. 
+2025-02-26 00:17:48 [Level: Information] Executing endpoint '"SimpleNotesApi.Controllers.NotesController.Index (SimpleNotesApi)"' 
+2025-02-26 00:17:48 [Level: Information] Route matched with "{action = \"Index\", controller = \"Notes\"}". Executing controller action with signature "System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Index()" on controller "SimpleNotesApi.Controllers.NotesController" ("SimpleNotesApi"). 
+2025-02-26 00:17:48 [Level: Information] Executed DbCommand ("42"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT [n].[Id], [n].[Created], [n].[Description], [n].[Title]
+FROM [Notes] AS [n]" 
+2025-02-26 00:17:48 [Level: Information] Executed DbCommand ("42"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT [n].[Id], [n].[Created], [n].[Description], [n].[Title]
+FROM [Notes] AS [n]" 
+2025-02-26 00:17:48 [Level: Information] Executing "OkObjectResult", writing value of type '"System.Collections.Generic.List`1[[SimpleNotesApi.Models.Note, SimpleNotesApi, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]"'. 
+2025-02-26 00:17:48 [Level: Information] Executing "OkObjectResult", writing value of type '"System.Collections.Generic.List`1[[SimpleNotesApi.Models.Note, SimpleNotesApi, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]"'. 
+2025-02-26 00:17:48 [Level: Information] Executed action "SimpleNotesApi.Controllers.NotesController.Index (SimpleNotesApi)" in 332.6449ms 
+2025-02-26 00:17:48 [Level: Information] Executed endpoint '"SimpleNotesApi.Controllers.NotesController.Index (SimpleNotesApi)"' 
+2025-02-26 00:17:48 [Level: Information] Executed action "SimpleNotesApi.Controllers.NotesController.Index (SimpleNotesApi)" in 1364.1287ms 
+2025-02-26 00:17:48 [Level: Information] Executed endpoint '"SimpleNotesApi.Controllers.NotesController.Index (SimpleNotesApi)"' 
+2025-02-26 00:17:48 [Level: Information] Request finished "HTTP/2" "GET" "https"://"localhost:7123""""/api/Notes""" - 200 null "application/json; charset=utf-8" 346.9458ms 
+2025-02-26 00:17:48 [Level: Information] Request finished "HTTP/2" "GET" "https"://"localhost:7123""""/api/Notes""" - 499 null "application/json; charset=utf-8" 1405.519ms 
+2025-02-26 00:17:52 [Level: Information] Request starting "HTTP/2" "GET" "https"://"localhost:7123""""/api/Notes""" - null null 
+2025-02-26 00:17:52 [Level: Information] CORS policy execution successful. 
+2025-02-26 00:17:52 [Level: Information] Executing endpoint '"SimpleNotesApi.Controllers.NotesController.Index (SimpleNotesApi)"' 
+2025-02-26 00:17:52 [Level: Information] Route matched with "{action = \"Index\", controller = \"Notes\"}". Executing controller action with signature "System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Index()" on controller "SimpleNotesApi.Controllers.NotesController" ("SimpleNotesApi"). 
+2025-02-26 00:17:52 [Level: Information] Executed DbCommand ("6"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT [n].[Id], [n].[Created], [n].[Description], [n].[Title]
+FROM [Notes] AS [n]" 
+2025-02-26 00:17:52 [Level: Information] Executing "OkObjectResult", writing value of type '"System.Collections.Generic.List`1[[SimpleNotesApi.Models.Note, SimpleNotesApi, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]"'. 
+2025-02-26 00:17:52 [Level: Information] Executed action "SimpleNotesApi.Controllers.NotesController.Index (SimpleNotesApi)" in 82.1096ms 
+2025-02-26 00:17:52 [Level: Information] Executed endpoint '"SimpleNotesApi.Controllers.NotesController.Index (SimpleNotesApi)"' 
+2025-02-26 00:17:52 [Level: Information] Request finished "HTTP/2" "GET" "https"://"localhost:7123""""/api/Notes""" - 200 null "application/json; charset=utf-8" 84.7108ms 
+2025-02-26 00:18:27 [Level: Information] Request starting "HTTP/2" "GET" "https"://"localhost:7123""""/api/Notes""" - null null 
+2025-02-26 00:18:27 [Level: Information] CORS policy execution successful. 
+2025-02-26 00:18:27 [Level: Information] Executing endpoint '"SimpleNotesApi.Controllers.NotesController.Index (SimpleNotesApi)"' 
+2025-02-26 00:18:27 [Level: Information] Route matched with "{action = \"Index\", controller = \"Notes\"}". Executing controller action with signature "System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Index()" on controller "SimpleNotesApi.Controllers.NotesController" ("SimpleNotesApi"). 
+2025-02-26 00:18:27 [Level: Information] Executed DbCommand ("4"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT [n].[Id], [n].[Created], [n].[Description], [n].[Title]
+FROM [Notes] AS [n]" 
+2025-02-26 00:18:27 [Level: Information] Executing "OkObjectResult", writing value of type '"System.Collections.Generic.List`1[[SimpleNotesApi.Models.Note, SimpleNotesApi, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]"'. 
+2025-02-26 00:18:27 [Level: Information] Executed action "SimpleNotesApi.Controllers.NotesController.Index (SimpleNotesApi)" in 13.92ms 
+2025-02-26 00:18:27 [Level: Information] Executed endpoint '"SimpleNotesApi.Controllers.NotesController.Index (SimpleNotesApi)"' 
+2025-02-26 00:18:27 [Level: Information] Request finished "HTTP/2" "GET" "https"://"localhost:7123""""/api/Notes""" - 200 null "application/json; charset=utf-8" 17.9601ms 
+2025-02-26 00:18:33 [Level: Information] Request starting "HTTP/2" "GET" "https"://"localhost:7123""""/api/Notes""" - null null 
+2025-02-26 00:18:33 [Level: Information] CORS policy execution successful. 
+2025-02-26 00:18:33 [Level: Information] Executing endpoint '"SimpleNotesApi.Controllers.NotesController.Index (SimpleNotesApi)"' 
+2025-02-26 00:18:33 [Level: Information] Route matched with "{action = \"Index\", controller = \"Notes\"}". Executing controller action with signature "System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Index()" on controller "SimpleNotesApi.Controllers.NotesController" ("SimpleNotesApi"). 
+2025-02-26 00:18:33 [Level: Information] Executed DbCommand ("3"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT [n].[Id], [n].[Created], [n].[Description], [n].[Title]
+FROM [Notes] AS [n]" 
+2025-02-26 00:18:33 [Level: Information] Executing "OkObjectResult", writing value of type '"System.Collections.Generic.List`1[[SimpleNotesApi.Models.Note, SimpleNotesApi, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]"'. 
+2025-02-26 00:18:33 [Level: Information] Executed action "SimpleNotesApi.Controllers.NotesController.Index (SimpleNotesApi)" in 5.3892ms 
+2025-02-26 00:18:33 [Level: Information] Executed endpoint '"SimpleNotesApi.Controllers.NotesController.Index (SimpleNotesApi)"' 
+2025-02-26 00:18:33 [Level: Information] Request finished "HTTP/2" "GET" "https"://"localhost:7123""""/api/Notes""" - 200 null "application/json; charset=utf-8" 6.4752ms 
+2025-02-26 00:18:39 [Level: Information] Request starting "HTTP/2" "GET" "https"://"localhost:7123""""/api/Notes""" - null null 
+2025-02-26 00:18:39 [Level: Information] CORS policy execution successful. 
+2025-02-26 00:18:39 [Level: Information] Executing endpoint '"SimpleNotesApi.Controllers.NotesController.Index (SimpleNotesApi)"' 
+2025-02-26 00:18:39 [Level: Information] Route matched with "{action = \"Index\", controller = \"Notes\"}". Executing controller action with signature "System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Index()" on controller "SimpleNotesApi.Controllers.NotesController" ("SimpleNotesApi"). 
+2025-02-26 00:18:39 [Level: Information] Executed DbCommand ("1"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT [n].[Id], [n].[Created], [n].[Description], [n].[Title]
+FROM [Notes] AS [n]" 
+2025-02-26 00:18:39 [Level: Information] Executing "OkObjectResult", writing value of type '"System.Collections.Generic.List`1[[SimpleNotesApi.Models.Note, SimpleNotesApi, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]"'. 
+2025-02-26 00:18:39 [Level: Information] Executed action "SimpleNotesApi.Controllers.NotesController.Index (SimpleNotesApi)" in 4.4371ms 
+2025-02-26 00:18:39 [Level: Information] Executed endpoint '"SimpleNotesApi.Controllers.NotesController.Index (SimpleNotesApi)"' 
+2025-02-26 00:18:39 [Level: Information] Request finished "HTTP/2" "GET" "https"://"localhost:7123""""/api/Notes""" - 200 null "application/json; charset=utf-8" 5.3938ms 
+2025-02-26 00:18:42 [Level: Information] Request starting "HTTP/2" "GET" "https"://"localhost:7123""""/api/Notes""" - null null 
+2025-02-26 00:18:42 [Level: Information] CORS policy execution successful. 
+2025-02-26 00:18:42 [Level: Information] Executing endpoint '"SimpleNotesApi.Controllers.NotesController.Index (SimpleNotesApi)"' 
+2025-02-26 00:18:42 [Level: Information] Route matched with "{action = \"Index\", controller = \"Notes\"}". Executing controller action with signature "System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Index()" on controller "SimpleNotesApi.Controllers.NotesController" ("SimpleNotesApi"). 
+2025-02-26 00:18:42 [Level: Information] Executed DbCommand ("1"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT [n].[Id], [n].[Created], [n].[Description], [n].[Title]
+FROM [Notes] AS [n]" 
+2025-02-26 00:18:42 [Level: Information] Executing "OkObjectResult", writing value of type '"System.Collections.Generic.List`1[[SimpleNotesApi.Models.Note, SimpleNotesApi, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]"'. 
+2025-02-26 00:18:42 [Level: Information] Executed action "SimpleNotesApi.Controllers.NotesController.Index (SimpleNotesApi)" in 4.6855ms 
+2025-02-26 00:18:42 [Level: Information] Executed endpoint '"SimpleNotesApi.Controllers.NotesController.Index (SimpleNotesApi)"' 
+2025-02-26 00:18:42 [Level: Information] Request finished "HTTP/2" "GET" "https"://"localhost:7123""""/api/Notes""" - 200 null "application/json; charset=utf-8" 6.0358ms 
+2025-02-26 00:18:49 [Level: Information] Request starting "HTTP/2" "GET" "https"://"localhost:7123""""/api/Notes""" - null null 
+2025-02-26 00:18:49 [Level: Information] CORS policy execution successful. 
+2025-02-26 00:18:49 [Level: Information] Executing endpoint '"SimpleNotesApi.Controllers.NotesController.Index (SimpleNotesApi)"' 
+2025-02-26 00:18:49 [Level: Information] Route matched with "{action = \"Index\", controller = \"Notes\"}". Executing controller action with signature "System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Index()" on controller "SimpleNotesApi.Controllers.NotesController" ("SimpleNotesApi"). 
+2025-02-26 00:18:49 [Level: Information] Executed DbCommand ("3"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT [n].[Id], [n].[Created], [n].[Description], [n].[Title]
+FROM [Notes] AS [n]" 
+2025-02-26 00:18:49 [Level: Information] Executing "OkObjectResult", writing value of type '"System.Collections.Generic.List`1[[SimpleNotesApi.Models.Note, SimpleNotesApi, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]"'. 
+2025-02-26 00:18:49 [Level: Information] Executed action "SimpleNotesApi.Controllers.NotesController.Index (SimpleNotesApi)" in 8.8885ms 
+2025-02-26 00:18:49 [Level: Information] Executed endpoint '"SimpleNotesApi.Controllers.NotesController.Index (SimpleNotesApi)"' 
+2025-02-26 00:18:49 [Level: Information] Request finished "HTTP/2" "GET" "https"://"localhost:7123""""/api/Notes""" - 200 null "application/json; charset=utf-8" 10.1146ms 
+2025-02-26 00:18:52 [Level: Information] Request starting "HTTP/2" "GET" "https"://"localhost:7123""""/api/Notes""" - null null 
+2025-02-26 00:18:52 [Level: Information] CORS policy execution successful. 
+2025-02-26 00:18:52 [Level: Information] Executing endpoint '"SimpleNotesApi.Controllers.NotesController.Index (SimpleNotesApi)"' 
+2025-02-26 00:18:52 [Level: Information] Route matched with "{action = \"Index\", controller = \"Notes\"}". Executing controller action with signature "System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Index()" on controller "SimpleNotesApi.Controllers.NotesController" ("SimpleNotesApi"). 
+2025-02-26 00:18:52 [Level: Information] Executed DbCommand ("3"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT [n].[Id], [n].[Created], [n].[Description], [n].[Title]
+FROM [Notes] AS [n]" 
+2025-02-26 00:18:52 [Level: Information] Executing "OkObjectResult", writing value of type '"System.Collections.Generic.List`1[[SimpleNotesApi.Models.Note, SimpleNotesApi, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]"'. 
+2025-02-26 00:18:52 [Level: Information] Executed action "SimpleNotesApi.Controllers.NotesController.Index (SimpleNotesApi)" in 6.0358ms 
+2025-02-26 00:18:52 [Level: Information] Executed endpoint '"SimpleNotesApi.Controllers.NotesController.Index (SimpleNotesApi)"' 
+2025-02-26 00:18:52 [Level: Information] Request finished "HTTP/2" "GET" "https"://"localhost:7123""""/api/Notes""" - 200 null "application/json; charset=utf-8" 6.9949ms 
+2025-02-26 00:19:18 [Level: Information] Request starting "HTTP/2" "GET" "https"://"localhost:7123""""/api/Notes""" - null null 
+2025-02-26 00:19:18 [Level: Information] CORS policy execution successful. 
+2025-02-26 00:19:18 [Level: Information] Executing endpoint '"SimpleNotesApi.Controllers.NotesController.Index (SimpleNotesApi)"' 
+2025-02-26 00:19:18 [Level: Information] Route matched with "{action = \"Index\", controller = \"Notes\"}". Executing controller action with signature "System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Index()" on controller "SimpleNotesApi.Controllers.NotesController" ("SimpleNotesApi"). 
+2025-02-26 00:19:18 [Level: Information] Executed DbCommand ("2"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT [n].[Id], [n].[Created], [n].[Description], [n].[Title]
+FROM [Notes] AS [n]" 
+2025-02-26 00:19:18 [Level: Information] Executing "OkObjectResult", writing value of type '"System.Collections.Generic.List`1[[SimpleNotesApi.Models.Note, SimpleNotesApi, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]"'. 
+2025-02-26 00:19:18 [Level: Information] Executed action "SimpleNotesApi.Controllers.NotesController.Index (SimpleNotesApi)" in 5.3353ms 
+2025-02-26 00:19:18 [Level: Information] Executed endpoint '"SimpleNotesApi.Controllers.NotesController.Index (SimpleNotesApi)"' 
+2025-02-26 00:19:18 [Level: Information] Request finished "HTTP/2" "GET" "https"://"localhost:7123""""/api/Notes""" - 200 null "application/json; charset=utf-8" 6.7954ms 
+2025-02-26 00:19:24 [Level: Information] Request starting "HTTP/2" "GET" "https"://"localhost:7123""""/api/Notes""" - null null 
+2025-02-26 00:19:24 [Level: Information] CORS policy execution successful. 
+2025-02-26 00:19:24 [Level: Information] Executing endpoint '"SimpleNotesApi.Controllers.NotesController.Index (SimpleNotesApi)"' 
+2025-02-26 00:19:24 [Level: Information] Route matched with "{action = \"Index\", controller = \"Notes\"}". Executing controller action with signature "System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Index()" on controller "SimpleNotesApi.Controllers.NotesController" ("SimpleNotesApi"). 
+2025-02-26 00:19:24 [Level: Information] Executed DbCommand ("2"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT [n].[Id], [n].[Created], [n].[Description], [n].[Title]
+FROM [Notes] AS [n]" 
+2025-02-26 00:19:24 [Level: Information] Executing "OkObjectResult", writing value of type '"System.Collections.Generic.List`1[[SimpleNotesApi.Models.Note, SimpleNotesApi, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]"'. 
+2025-02-26 00:19:24 [Level: Information] Executed action "SimpleNotesApi.Controllers.NotesController.Index (SimpleNotesApi)" in 6.5521ms 
+2025-02-26 00:19:24 [Level: Information] Executed endpoint '"SimpleNotesApi.Controllers.NotesController.Index (SimpleNotesApi)"' 
+2025-02-26 00:19:24 [Level: Information] Request finished "HTTP/2" "GET" "https"://"localhost:7123""""/api/Notes""" - 200 null "application/json; charset=utf-8" 8.1086ms 
+2025-02-26 00:19:26 [Level: Information] Request starting "HTTP/2" "GET" "https"://"localhost:7123""""/api/Notes""" - null null 
+2025-02-26 00:19:26 [Level: Information] CORS policy execution successful. 
+2025-02-26 00:19:26 [Level: Information] Executing endpoint '"SimpleNotesApi.Controllers.NotesController.Index (SimpleNotesApi)"' 
+2025-02-26 00:19:26 [Level: Information] Route matched with "{action = \"Index\", controller = \"Notes\"}". Executing controller action with signature "System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Index()" on controller "SimpleNotesApi.Controllers.NotesController" ("SimpleNotesApi"). 
+2025-02-26 00:19:26 [Level: Information] Executed DbCommand ("2"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT [n].[Id], [n].[Created], [n].[Description], [n].[Title]
+FROM [Notes] AS [n]" 
+2025-02-26 00:19:26 [Level: Information] Executing "OkObjectResult", writing value of type '"System.Collections.Generic.List`1[[SimpleNotesApi.Models.Note, SimpleNotesApi, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]"'. 
+2025-02-26 00:19:26 [Level: Information] Executed action "SimpleNotesApi.Controllers.NotesController.Index (SimpleNotesApi)" in 7.6836ms 
+2025-02-26 00:19:26 [Level: Information] Executed endpoint '"SimpleNotesApi.Controllers.NotesController.Index (SimpleNotesApi)"' 
+2025-02-26 00:19:26 [Level: Information] Request finished "HTTP/2" "GET" "https"://"localhost:7123""""/api/Notes""" - 200 null "application/json; charset=utf-8" 9.8652ms 
+2025-02-26 00:19:26 [Level: Information] Request starting "HTTP/2" "GET" "https"://"localhost:7123""""/api/Notes""" - null null 
+2025-02-26 00:19:26 [Level: Information] CORS policy execution successful. 
+2025-02-26 00:19:26 [Level: Information] Executing endpoint '"SimpleNotesApi.Controllers.NotesController.Index (SimpleNotesApi)"' 
+2025-02-26 00:19:26 [Level: Information] Route matched with "{action = \"Index\", controller = \"Notes\"}". Executing controller action with signature "System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Index()" on controller "SimpleNotesApi.Controllers.NotesController" ("SimpleNotesApi"). 
+2025-02-26 00:19:26 [Level: Information] Executed DbCommand ("4"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT [n].[Id], [n].[Created], [n].[Description], [n].[Title]
+FROM [Notes] AS [n]" 
+2025-02-26 00:19:26 [Level: Information] Executing "OkObjectResult", writing value of type '"System.Collections.Generic.List`1[[SimpleNotesApi.Models.Note, SimpleNotesApi, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]"'. 
+2025-02-26 00:19:26 [Level: Information] Executed action "SimpleNotesApi.Controllers.NotesController.Index (SimpleNotesApi)" in 6.6392ms 
+2025-02-26 00:19:26 [Level: Information] Executed endpoint '"SimpleNotesApi.Controllers.NotesController.Index (SimpleNotesApi)"' 
+2025-02-26 00:19:26 [Level: Information] Request finished "HTTP/2" "GET" "https"://"localhost:7123""""/api/Notes""" - 200 null "application/json; charset=utf-8" 7.7861ms 
+2025-02-26 00:19:34 [Level: Information] Request starting "HTTP/2" "GET" "https"://"localhost:7123""""/api/Notes""" - null null 
+2025-02-26 00:19:34 [Level: Information] CORS policy execution successful. 
+2025-02-26 00:19:34 [Level: Information] Executing endpoint '"SimpleNotesApi.Controllers.NotesController.Index (SimpleNotesApi)"' 
+2025-02-26 00:19:34 [Level: Information] Route matched with "{action = \"Index\", controller = \"Notes\"}". Executing controller action with signature "System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Index()" on controller "SimpleNotesApi.Controllers.NotesController" ("SimpleNotesApi"). 
+2025-02-26 00:19:34 [Level: Information] Executed DbCommand ("5"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT [n].[Id], [n].[Created], [n].[Description], [n].[Title]
+FROM [Notes] AS [n]" 
+2025-02-26 00:19:34 [Level: Information] Executing "OkObjectResult", writing value of type '"System.Collections.Generic.List`1[[SimpleNotesApi.Models.Note, SimpleNotesApi, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]"'. 
+2025-02-26 00:19:34 [Level: Information] Executed action "SimpleNotesApi.Controllers.NotesController.Index (SimpleNotesApi)" in 7.6462ms 
+2025-02-26 00:19:34 [Level: Information] Executed endpoint '"SimpleNotesApi.Controllers.NotesController.Index (SimpleNotesApi)"' 
+2025-02-26 00:19:34 [Level: Information] Request finished "HTTP/2" "GET" "https"://"localhost:7123""""/api/Notes""" - 200 null "application/json; charset=utf-8" 9.1437ms 
+2025-02-26 00:19:35 [Level: Information] Request starting "HTTP/2" "GET" "https"://"localhost:7123""""/api/Notes""" - null null 
+2025-02-26 00:19:35 [Level: Information] CORS policy execution successful. 
+2025-02-26 00:19:35 [Level: Information] Executing endpoint '"SimpleNotesApi.Controllers.NotesController.Index (SimpleNotesApi)"' 
+2025-02-26 00:19:35 [Level: Information] Route matched with "{action = \"Index\", controller = \"Notes\"}". Executing controller action with signature "System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Index()" on controller "SimpleNotesApi.Controllers.NotesController" ("SimpleNotesApi"). 
+2025-02-26 00:19:35 [Level: Information] Executed DbCommand ("3"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT [n].[Id], [n].[Created], [n].[Description], [n].[Title]
+FROM [Notes] AS [n]" 
+2025-02-26 00:19:35 [Level: Information] Executing "OkObjectResult", writing value of type '"System.Collections.Generic.List`1[[SimpleNotesApi.Models.Note, SimpleNotesApi, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]"'. 
+2025-02-26 00:19:35 [Level: Information] Executed action "SimpleNotesApi.Controllers.NotesController.Index (SimpleNotesApi)" in 6.6451ms 
+2025-02-26 00:19:35 [Level: Information] Executed endpoint '"SimpleNotesApi.Controllers.NotesController.Index (SimpleNotesApi)"' 
+2025-02-26 00:19:35 [Level: Information] Request finished "HTTP/2" "GET" "https"://"localhost:7123""""/api/Notes""" - 200 null "application/json; charset=utf-8" 8.0961ms 
+2025-02-26 00:20:37 [Level: Information] Request starting "HTTP/2" "GET" "https"://"localhost:7123""""/api/Notes""" - null null 
+2025-02-26 00:20:37 [Level: Information] CORS policy execution successful. 
+2025-02-26 00:20:37 [Level: Information] Executing endpoint '"SimpleNotesApi.Controllers.NotesController.Index (SimpleNotesApi)"' 
+2025-02-26 00:20:37 [Level: Information] Route matched with "{action = \"Index\", controller = \"Notes\"}". Executing controller action with signature "System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Index()" on controller "SimpleNotesApi.Controllers.NotesController" ("SimpleNotesApi"). 
+2025-02-26 00:20:37 [Level: Information] Executed DbCommand ("4"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT [n].[Id], [n].[Created], [n].[Description], [n].[Title]
+FROM [Notes] AS [n]" 
+2025-02-26 00:20:37 [Level: Information] Executing "OkObjectResult", writing value of type '"System.Collections.Generic.List`1[[SimpleNotesApi.Models.Note, SimpleNotesApi, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]"'. 
+2025-02-26 00:20:37 [Level: Information] Executed action "SimpleNotesApi.Controllers.NotesController.Index (SimpleNotesApi)" in 13.1527ms 
+2025-02-26 00:20:37 [Level: Information] Executed endpoint '"SimpleNotesApi.Controllers.NotesController.Index (SimpleNotesApi)"' 
+2025-02-26 00:20:37 [Level: Information] Request finished "HTTP/2" "GET" "https"://"localhost:7123""""/api/Notes""" - 200 null "application/json; charset=utf-8" 16.1471ms 
+2025-02-26 00:20:54 [Level: Information] Request starting "HTTP/2" "GET" "https"://"localhost:7123""""/api/Notes""" - null null 
+2025-02-26 00:20:54 [Level: Information] CORS policy execution successful. 
+2025-02-26 00:20:54 [Level: Information] Executing endpoint '"SimpleNotesApi.Controllers.NotesController.Index (SimpleNotesApi)"' 
+2025-02-26 00:20:54 [Level: Information] Route matched with "{action = \"Index\", controller = \"Notes\"}". Executing controller action with signature "System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Index()" on controller "SimpleNotesApi.Controllers.NotesController" ("SimpleNotesApi"). 
+2025-02-26 00:20:54 [Level: Information] Executed DbCommand ("6"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT [n].[Id], [n].[Created], [n].[Description], [n].[Title]
+FROM [Notes] AS [n]" 
+2025-02-26 00:20:54 [Level: Information] Executing "OkObjectResult", writing value of type '"System.Collections.Generic.List`1[[SimpleNotesApi.Models.Note, SimpleNotesApi, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]"'. 
+2025-02-26 00:20:54 [Level: Information] Executed action "SimpleNotesApi.Controllers.NotesController.Index (SimpleNotesApi)" in 10.8664ms 
+2025-02-26 00:20:54 [Level: Information] Executed endpoint '"SimpleNotesApi.Controllers.NotesController.Index (SimpleNotesApi)"' 
+2025-02-26 00:20:54 [Level: Information] Request finished "HTTP/2" "GET" "https"://"localhost:7123""""/api/Notes""" - 200 null "application/json; charset=utf-8" 13.1487ms 
+2025-02-26 00:20:57 [Level: Information] Request starting "HTTP/2" "GET" "https"://"localhost:7123""""/api/Notes""" - null null 
+2025-02-26 00:20:57 [Level: Information] CORS policy execution successful. 
+2025-02-26 00:20:57 [Level: Information] Executing endpoint '"SimpleNotesApi.Controllers.NotesController.Index (SimpleNotesApi)"' 
+2025-02-26 00:20:57 [Level: Information] Route matched with "{action = \"Index\", controller = \"Notes\"}". Executing controller action with signature "System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Index()" on controller "SimpleNotesApi.Controllers.NotesController" ("SimpleNotesApi"). 
+2025-02-26 00:20:57 [Level: Information] Executed DbCommand ("2"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT [n].[Id], [n].[Created], [n].[Description], [n].[Title]
+FROM [Notes] AS [n]" 
+2025-02-26 00:20:57 [Level: Information] Executing "OkObjectResult", writing value of type '"System.Collections.Generic.List`1[[SimpleNotesApi.Models.Note, SimpleNotesApi, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]"'. 
+2025-02-26 00:20:57 [Level: Information] Executed action "SimpleNotesApi.Controllers.NotesController.Index (SimpleNotesApi)" in 6.0041ms 
+2025-02-26 00:20:57 [Level: Information] Executed endpoint '"SimpleNotesApi.Controllers.NotesController.Index (SimpleNotesApi)"' 
+2025-02-26 00:20:57 [Level: Information] Request finished "HTTP/2" "GET" "https"://"localhost:7123""""/api/Notes""" - 200 null "application/json; charset=utf-8" 7.2634ms 
+2025-02-26 00:20:58 [Level: Information] Request starting "HTTP/2" "GET" "https"://"localhost:7123""""/api/Notes""" - null null 
+2025-02-26 00:20:58 [Level: Information] CORS policy execution successful. 
+2025-02-26 00:20:58 [Level: Information] Executing endpoint '"SimpleNotesApi.Controllers.NotesController.Index (SimpleNotesApi)"' 
+2025-02-26 00:20:58 [Level: Information] Route matched with "{action = \"Index\", controller = \"Notes\"}". Executing controller action with signature "System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Index()" on controller "SimpleNotesApi.Controllers.NotesController" ("SimpleNotesApi"). 
+2025-02-26 00:20:58 [Level: Information] Executed DbCommand ("1"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT [n].[Id], [n].[Created], [n].[Description], [n].[Title]
+FROM [Notes] AS [n]" 
+2025-02-26 00:20:58 [Level: Information] Executing "OkObjectResult", writing value of type '"System.Collections.Generic.List`1[[SimpleNotesApi.Models.Note, SimpleNotesApi, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]"'. 
+2025-02-26 00:20:58 [Level: Information] Executed action "SimpleNotesApi.Controllers.NotesController.Index (SimpleNotesApi)" in 3.8267ms 
+2025-02-26 00:20:58 [Level: Information] Executed endpoint '"SimpleNotesApi.Controllers.NotesController.Index (SimpleNotesApi)"' 
+2025-02-26 00:20:58 [Level: Information] Request finished "HTTP/2" "GET" "https"://"localhost:7123""""/api/Notes""" - 200 null "application/json; charset=utf-8" 4.7896ms 
+2025-02-26 00:21:00 [Level: Information] Request starting "HTTP/2" "GET" "https"://"localhost:7123""""/api/Notes""" - null null 
+2025-02-26 00:21:00 [Level: Information] CORS policy execution successful. 
+2025-02-26 00:21:00 [Level: Information] Executing endpoint '"SimpleNotesApi.Controllers.NotesController.Index (SimpleNotesApi)"' 
+2025-02-26 00:21:00 [Level: Information] Route matched with "{action = \"Index\", controller = \"Notes\"}". Executing controller action with signature "System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Index()" on controller "SimpleNotesApi.Controllers.NotesController" ("SimpleNotesApi"). 
+2025-02-26 00:21:00 [Level: Information] Executed DbCommand ("2"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT [n].[Id], [n].[Created], [n].[Description], [n].[Title]
+FROM [Notes] AS [n]" 
+2025-02-26 00:21:00 [Level: Information] Executing "OkObjectResult", writing value of type '"System.Collections.Generic.List`1[[SimpleNotesApi.Models.Note, SimpleNotesApi, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]"'. 
+2025-02-26 00:21:00 [Level: Information] Executed action "SimpleNotesApi.Controllers.NotesController.Index (SimpleNotesApi)" in 5.4547ms 
+2025-02-26 00:21:00 [Level: Information] Executed endpoint '"SimpleNotesApi.Controllers.NotesController.Index (SimpleNotesApi)"' 
+2025-02-26 00:21:00 [Level: Information] Request finished "HTTP/2" "GET" "https"://"localhost:7123""""/api/Notes""" - 200 null "application/json; charset=utf-8" 6.3616ms 
+2025-02-26 00:21:02 [Level: Information] Request starting "HTTP/2" "GET" "https"://"localhost:7123""""/api/Notes""" - null null 
+2025-02-26 00:21:02 [Level: Information] CORS policy execution successful. 
+2025-02-26 00:21:02 [Level: Information] Executing endpoint '"SimpleNotesApi.Controllers.NotesController.Index (SimpleNotesApi)"' 
+2025-02-26 00:21:02 [Level: Information] Route matched with "{action = \"Index\", controller = \"Notes\"}". Executing controller action with signature "System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Index()" on controller "SimpleNotesApi.Controllers.NotesController" ("SimpleNotesApi"). 
+2025-02-26 00:21:02 [Level: Information] Executed DbCommand ("2"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT [n].[Id], [n].[Created], [n].[Description], [n].[Title]
+FROM [Notes] AS [n]" 
+2025-02-26 00:21:02 [Level: Information] Executing "OkObjectResult", writing value of type '"System.Collections.Generic.List`1[[SimpleNotesApi.Models.Note, SimpleNotesApi, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]"'. 
+2025-02-26 00:21:02 [Level: Information] Executed action "SimpleNotesApi.Controllers.NotesController.Index (SimpleNotesApi)" in 6.4783ms 
+2025-02-26 00:21:02 [Level: Information] Executed endpoint '"SimpleNotesApi.Controllers.NotesController.Index (SimpleNotesApi)"' 
+2025-02-26 00:21:02 [Level: Information] Request finished "HTTP/2" "GET" "https"://"localhost:7123""""/api/Notes""" - 200 null "application/json; charset=utf-8" 8.2269ms 
+2025-02-26 00:21:08 [Level: Information] Request starting "HTTP/2" "GET" "https"://"localhost:7123""""/api/Notes""" - null null 
+2025-02-26 00:21:08 [Level: Information] CORS policy execution successful. 
+2025-02-26 00:21:08 [Level: Information] Executing endpoint '"SimpleNotesApi.Controllers.NotesController.Index (SimpleNotesApi)"' 
+2025-02-26 00:21:08 [Level: Information] Route matched with "{action = \"Index\", controller = \"Notes\"}". Executing controller action with signature "System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Index()" on controller "SimpleNotesApi.Controllers.NotesController" ("SimpleNotesApi"). 
+2025-02-26 00:21:08 [Level: Information] Executed DbCommand ("1"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT [n].[Id], [n].[Created], [n].[Description], [n].[Title]
+FROM [Notes] AS [n]" 
+2025-02-26 00:21:08 [Level: Information] Executing "OkObjectResult", writing value of type '"System.Collections.Generic.List`1[[SimpleNotesApi.Models.Note, SimpleNotesApi, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]"'. 
+2025-02-26 00:21:08 [Level: Information] Executed action "SimpleNotesApi.Controllers.NotesController.Index (SimpleNotesApi)" in 5.451ms 
+2025-02-26 00:21:08 [Level: Information] Executed endpoint '"SimpleNotesApi.Controllers.NotesController.Index (SimpleNotesApi)"' 
+2025-02-26 00:21:08 [Level: Information] Request finished "HTTP/2" "GET" "https"://"localhost:7123""""/api/Notes""" - 200 null "application/json; charset=utf-8" 6.2448ms 
+2025-02-26 00:21:09 [Level: Information] Request starting "HTTP/2" "GET" "https"://"localhost:7123""""/api/Notes""" - null null 
+2025-02-26 00:21:09 [Level: Information] CORS policy execution successful. 
+2025-02-26 00:21:09 [Level: Information] Executing endpoint '"SimpleNotesApi.Controllers.NotesController.Index (SimpleNotesApi)"' 
+2025-02-26 00:21:09 [Level: Information] Route matched with "{action = \"Index\", controller = \"Notes\"}". Executing controller action with signature "System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Index()" on controller "SimpleNotesApi.Controllers.NotesController" ("SimpleNotesApi"). 
+2025-02-26 00:21:09 [Level: Information] Executed DbCommand ("4"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT [n].[Id], [n].[Created], [n].[Description], [n].[Title]
+FROM [Notes] AS [n]" 
+2025-02-26 00:21:09 [Level: Information] Executing "OkObjectResult", writing value of type '"System.Collections.Generic.List`1[[SimpleNotesApi.Models.Note, SimpleNotesApi, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]"'. 
+2025-02-26 00:21:09 [Level: Information] Executed action "SimpleNotesApi.Controllers.NotesController.Index (SimpleNotesApi)" in 21.0357ms 
+2025-02-26 00:21:09 [Level: Information] Executed endpoint '"SimpleNotesApi.Controllers.NotesController.Index (SimpleNotesApi)"' 
+2025-02-26 00:21:09 [Level: Information] Request finished "HTTP/2" "GET" "https"://"localhost:7123""""/api/Notes""" - 200 null "application/json; charset=utf-8" 23.792ms 
+2025-02-26 00:21:33 [Level: Information] Request starting "HTTP/2" "GET" "https"://"localhost:7123""""/api/Notes""" - null null 
+2025-02-26 00:21:33 [Level: Information] CORS policy execution successful. 
+2025-02-26 00:21:33 [Level: Information] Executing endpoint '"SimpleNotesApi.Controllers.NotesController.Index (SimpleNotesApi)"' 
+2025-02-26 00:21:33 [Level: Information] Route matched with "{action = \"Index\", controller = \"Notes\"}". Executing controller action with signature "System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Index()" on controller "SimpleNotesApi.Controllers.NotesController" ("SimpleNotesApi"). 
+2025-02-26 00:21:33 [Level: Information] Executed DbCommand ("5"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT [n].[Id], [n].[Created], [n].[Description], [n].[Title]
+FROM [Notes] AS [n]" 
+2025-02-26 00:21:33 [Level: Information] Executing "OkObjectResult", writing value of type '"System.Collections.Generic.List`1[[SimpleNotesApi.Models.Note, SimpleNotesApi, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]"'. 
+2025-02-26 00:21:33 [Level: Information] Executed action "SimpleNotesApi.Controllers.NotesController.Index (SimpleNotesApi)" in 14.1074ms 
+2025-02-26 00:21:33 [Level: Information] Executed endpoint '"SimpleNotesApi.Controllers.NotesController.Index (SimpleNotesApi)"' 
+2025-02-26 00:21:33 [Level: Information] Request finished "HTTP/2" "GET" "https"://"localhost:7123""""/api/Notes""" - 200 null "application/json; charset=utf-8" 16.3464ms 
+2025-02-26 00:21:34 [Level: Information] Request starting "HTTP/2" "GET" "https"://"localhost:7123""""/api/Notes""" - null null 
+2025-02-26 00:21:34 [Level: Information] CORS policy execution successful. 
+2025-02-26 00:21:34 [Level: Information] Executing endpoint '"SimpleNotesApi.Controllers.NotesController.Index (SimpleNotesApi)"' 
+2025-02-26 00:21:34 [Level: Information] Route matched with "{action = \"Index\", controller = \"Notes\"}". Executing controller action with signature "System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Index()" on controller "SimpleNotesApi.Controllers.NotesController" ("SimpleNotesApi"). 
+2025-02-26 00:21:34 [Level: Information] Executed DbCommand ("3"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT [n].[Id], [n].[Created], [n].[Description], [n].[Title]
+FROM [Notes] AS [n]" 
+2025-02-26 00:21:34 [Level: Information] Executing "OkObjectResult", writing value of type '"System.Collections.Generic.List`1[[SimpleNotesApi.Models.Note, SimpleNotesApi, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]"'. 
+2025-02-26 00:21:34 [Level: Information] Executed action "SimpleNotesApi.Controllers.NotesController.Index (SimpleNotesApi)" in 7.3784ms 
+2025-02-26 00:21:34 [Level: Information] Executed endpoint '"SimpleNotesApi.Controllers.NotesController.Index (SimpleNotesApi)"' 
+2025-02-26 00:21:34 [Level: Information] Request finished "HTTP/2" "GET" "https"://"localhost:7123""""/api/Notes""" - 200 null "application/json; charset=utf-8" 10.4653ms 
+2025-02-26 00:21:40 [Level: Information] Request starting "HTTP/2" "GET" "https"://"localhost:7123""""/api/Notes""" - null null 
+2025-02-26 00:21:40 [Level: Information] CORS policy execution successful. 
+2025-02-26 00:21:40 [Level: Information] Executing endpoint '"SimpleNotesApi.Controllers.NotesController.Index (SimpleNotesApi)"' 
+2025-02-26 00:21:40 [Level: Information] Route matched with "{action = \"Index\", controller = \"Notes\"}". Executing controller action with signature "System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Index()" on controller "SimpleNotesApi.Controllers.NotesController" ("SimpleNotesApi"). 
+2025-02-26 00:21:40 [Level: Information] Executed DbCommand ("1"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT [n].[Id], [n].[Created], [n].[Description], [n].[Title]
+FROM [Notes] AS [n]" 
+2025-02-26 00:21:40 [Level: Information] Executing "OkObjectResult", writing value of type '"System.Collections.Generic.List`1[[SimpleNotesApi.Models.Note, SimpleNotesApi, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]"'. 
+2025-02-26 00:21:40 [Level: Information] Executed action "SimpleNotesApi.Controllers.NotesController.Index (SimpleNotesApi)" in 5.6872ms 
+2025-02-26 00:21:40 [Level: Information] Executed endpoint '"SimpleNotesApi.Controllers.NotesController.Index (SimpleNotesApi)"' 
+2025-02-26 00:21:40 [Level: Information] Request finished "HTTP/2" "GET" "https"://"localhost:7123""""/api/Notes""" - 200 null "application/json; charset=utf-8" 7.9572ms 
+2025-02-26 00:21:46 [Level: Information] Request starting "HTTP/2" "GET" "https"://"localhost:7123""""/api/Notes""" - null null 
+2025-02-26 00:21:46 [Level: Information] CORS policy execution successful. 
+2025-02-26 00:21:46 [Level: Information] Executing endpoint '"SimpleNotesApi.Controllers.NotesController.Index (SimpleNotesApi)"' 
+2025-02-26 00:21:46 [Level: Information] Route matched with "{action = \"Index\", controller = \"Notes\"}". Executing controller action with signature "System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Index()" on controller "SimpleNotesApi.Controllers.NotesController" ("SimpleNotesApi"). 
+2025-02-26 00:21:46 [Level: Information] Executed DbCommand ("5"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT [n].[Id], [n].[Created], [n].[Description], [n].[Title]
+FROM [Notes] AS [n]" 
+2025-02-26 00:21:46 [Level: Information] Executing "OkObjectResult", writing value of type '"System.Collections.Generic.List`1[[SimpleNotesApi.Models.Note, SimpleNotesApi, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]"'. 
+2025-02-26 00:21:46 [Level: Information] Executed action "SimpleNotesApi.Controllers.NotesController.Index (SimpleNotesApi)" in 6.4299ms 
+2025-02-26 00:21:46 [Level: Information] Executed endpoint '"SimpleNotesApi.Controllers.NotesController.Index (SimpleNotesApi)"' 
+2025-02-26 00:21:46 [Level: Information] Request finished "HTTP/2" "GET" "https"://"localhost:7123""""/api/Notes""" - 200 null "application/json; charset=utf-8" 7.4523ms 
+2025-02-26 00:21:47 [Level: Information] Request starting "HTTP/2" "GET" "https"://"localhost:7123""""/api/Notes""" - null null 
+2025-02-26 00:21:47 [Level: Information] CORS policy execution successful. 
+2025-02-26 00:21:47 [Level: Information] Executing endpoint '"SimpleNotesApi.Controllers.NotesController.Index (SimpleNotesApi)"' 
+2025-02-26 00:21:47 [Level: Information] Route matched with "{action = \"Index\", controller = \"Notes\"}". Executing controller action with signature "System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Index()" on controller "SimpleNotesApi.Controllers.NotesController" ("SimpleNotesApi"). 
+2025-02-26 00:21:47 [Level: Information] Executed DbCommand ("3"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT [n].[Id], [n].[Created], [n].[Description], [n].[Title]
+FROM [Notes] AS [n]" 
+2025-02-26 00:21:47 [Level: Information] Executing "OkObjectResult", writing value of type '"System.Collections.Generic.List`1[[SimpleNotesApi.Models.Note, SimpleNotesApi, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]"'. 
+2025-02-26 00:21:47 [Level: Information] Executed action "SimpleNotesApi.Controllers.NotesController.Index (SimpleNotesApi)" in 5.1444ms 
+2025-02-26 00:21:47 [Level: Information] Executed endpoint '"SimpleNotesApi.Controllers.NotesController.Index (SimpleNotesApi)"' 
+2025-02-26 00:21:47 [Level: Information] Request finished "HTTP/2" "GET" "https"://"localhost:7123""""/api/Notes""" - 200 null "application/json; charset=utf-8" 7.0312ms 
+2025-02-26 00:21:55 [Level: Information] Request starting "HTTP/2" "GET" "https"://"localhost:7123""""/api/Notes""" - null null 
+2025-02-26 00:21:55 [Level: Information] CORS policy execution successful. 
+2025-02-26 00:21:55 [Level: Information] Executing endpoint '"SimpleNotesApi.Controllers.NotesController.Index (SimpleNotesApi)"' 
+2025-02-26 00:21:55 [Level: Information] Route matched with "{action = \"Index\", controller = \"Notes\"}". Executing controller action with signature "System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Index()" on controller "SimpleNotesApi.Controllers.NotesController" ("SimpleNotesApi"). 
+2025-02-26 00:21:55 [Level: Information] Executed DbCommand ("1"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT [n].[Id], [n].[Created], [n].[Description], [n].[Title]
+FROM [Notes] AS [n]" 
+2025-02-26 00:21:55 [Level: Information] Executing "OkObjectResult", writing value of type '"System.Collections.Generic.List`1[[SimpleNotesApi.Models.Note, SimpleNotesApi, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]"'. 
+2025-02-26 00:21:55 [Level: Information] Executed action "SimpleNotesApi.Controllers.NotesController.Index (SimpleNotesApi)" in 3.8133ms 
+2025-02-26 00:21:55 [Level: Information] Executed endpoint '"SimpleNotesApi.Controllers.NotesController.Index (SimpleNotesApi)"' 
+2025-02-26 00:21:55 [Level: Information] Request finished "HTTP/2" "GET" "https"://"localhost:7123""""/api/Notes""" - 200 null "application/json; charset=utf-8" 4.8158ms 
+2025-02-26 00:21:57 [Level: Information] Request starting "HTTP/2" "GET" "https"://"localhost:7123""""/api/Notes""" - null null 
+2025-02-26 00:21:57 [Level: Information] CORS policy execution successful. 
+2025-02-26 00:21:57 [Level: Information] Executing endpoint '"SimpleNotesApi.Controllers.NotesController.Index (SimpleNotesApi)"' 
+2025-02-26 00:21:57 [Level: Information] Route matched with "{action = \"Index\", controller = \"Notes\"}". Executing controller action with signature "System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Index()" on controller "SimpleNotesApi.Controllers.NotesController" ("SimpleNotesApi"). 
+2025-02-26 00:21:57 [Level: Information] Executed DbCommand ("1"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT [n].[Id], [n].[Created], [n].[Description], [n].[Title]
+FROM [Notes] AS [n]" 
+2025-02-26 00:21:57 [Level: Information] Executing "OkObjectResult", writing value of type '"System.Collections.Generic.List`1[[SimpleNotesApi.Models.Note, SimpleNotesApi, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]"'. 
+2025-02-26 00:21:57 [Level: Information] Executed action "SimpleNotesApi.Controllers.NotesController.Index (SimpleNotesApi)" in 4.3358ms 
+2025-02-26 00:21:57 [Level: Information] Executed endpoint '"SimpleNotesApi.Controllers.NotesController.Index (SimpleNotesApi)"' 
+2025-02-26 00:21:57 [Level: Information] Request finished "HTTP/2" "GET" "https"://"localhost:7123""""/api/Notes""" - 200 null "application/json; charset=utf-8" 5.5743ms 
+2025-02-26 00:21:58 [Level: Information] Request starting "HTTP/2" "GET" "https"://"localhost:7123""""/api/Notes""" - null null 
+2025-02-26 00:21:58 [Level: Information] CORS policy execution successful. 
+2025-02-26 00:21:58 [Level: Information] Executing endpoint '"SimpleNotesApi.Controllers.NotesController.Index (SimpleNotesApi)"' 
+2025-02-26 00:21:58 [Level: Information] Route matched with "{action = \"Index\", controller = \"Notes\"}". Executing controller action with signature "System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Index()" on controller "SimpleNotesApi.Controllers.NotesController" ("SimpleNotesApi"). 
+2025-02-26 00:21:58 [Level: Information] Executed DbCommand ("2"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT [n].[Id], [n].[Created], [n].[Description], [n].[Title]
+FROM [Notes] AS [n]" 
+2025-02-26 00:21:58 [Level: Information] Executing "OkObjectResult", writing value of type '"System.Collections.Generic.List`1[[SimpleNotesApi.Models.Note, SimpleNotesApi, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]"'. 
+2025-02-26 00:21:58 [Level: Information] Executed action "SimpleNotesApi.Controllers.NotesController.Index (SimpleNotesApi)" in 5.1367ms 
+2025-02-26 00:21:58 [Level: Information] Executed endpoint '"SimpleNotesApi.Controllers.NotesController.Index (SimpleNotesApi)"' 
+2025-02-26 00:21:58 [Level: Information] Request finished "HTTP/2" "GET" "https"://"localhost:7123""""/api/Notes""" - 200 null "application/json; charset=utf-8" 6.7373ms 
+2025-02-26 00:22:04 [Level: Information] Request starting "HTTP/2" "GET" "https"://"localhost:7123""""/api/Notes""" - null null 
+2025-02-26 00:22:04 [Level: Information] CORS policy execution successful. 
+2025-02-26 00:22:04 [Level: Information] Executing endpoint '"SimpleNotesApi.Controllers.NotesController.Index (SimpleNotesApi)"' 
+2025-02-26 00:22:04 [Level: Information] Route matched with "{action = \"Index\", controller = \"Notes\"}". Executing controller action with signature "System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Index()" on controller "SimpleNotesApi.Controllers.NotesController" ("SimpleNotesApi"). 
+2025-02-26 00:22:04 [Level: Information] Executed DbCommand ("2"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT [n].[Id], [n].[Created], [n].[Description], [n].[Title]
+FROM [Notes] AS [n]" 
+2025-02-26 00:22:04 [Level: Information] Executing "OkObjectResult", writing value of type '"System.Collections.Generic.List`1[[SimpleNotesApi.Models.Note, SimpleNotesApi, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]"'. 
+2025-02-26 00:22:04 [Level: Information] Executed action "SimpleNotesApi.Controllers.NotesController.Index (SimpleNotesApi)" in 6.2984ms 
+2025-02-26 00:22:04 [Level: Information] Executed endpoint '"SimpleNotesApi.Controllers.NotesController.Index (SimpleNotesApi)"' 
+2025-02-26 00:22:04 [Level: Information] Request finished "HTTP/2" "GET" "https"://"localhost:7123""""/api/Notes""" - 200 null "application/json; charset=utf-8" 7.7008ms 
+2025-02-26 00:22:04 [Level: Information] Request starting "HTTP/2" "GET" "https"://"localhost:7123""""/api/Notes""" - null null 
+2025-02-26 00:22:04 [Level: Information] CORS policy execution successful. 
+2025-02-26 00:22:04 [Level: Information] Executing endpoint '"SimpleNotesApi.Controllers.NotesController.Index (SimpleNotesApi)"' 
+2025-02-26 00:22:04 [Level: Information] Route matched with "{action = \"Index\", controller = \"Notes\"}". Executing controller action with signature "System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Index()" on controller "SimpleNotesApi.Controllers.NotesController" ("SimpleNotesApi"). 
+2025-02-26 00:22:04 [Level: Information] Executed DbCommand ("2"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT [n].[Id], [n].[Created], [n].[Description], [n].[Title]
+FROM [Notes] AS [n]" 
+2025-02-26 00:22:04 [Level: Information] Executing "OkObjectResult", writing value of type '"System.Collections.Generic.List`1[[SimpleNotesApi.Models.Note, SimpleNotesApi, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]"'. 
+2025-02-26 00:22:04 [Level: Information] Executed action "SimpleNotesApi.Controllers.NotesController.Index (SimpleNotesApi)" in 5.5646ms 
+2025-02-26 00:22:04 [Level: Information] Executed endpoint '"SimpleNotesApi.Controllers.NotesController.Index (SimpleNotesApi)"' 
+2025-02-26 00:22:04 [Level: Information] Request finished "HTTP/2" "GET" "https"://"localhost:7123""""/api/Notes""" - 200 null "application/json; charset=utf-8" 7.662ms 
+2025-02-26 00:22:10 [Level: Information] Request starting "HTTP/2" "GET" "https"://"localhost:7123""""/api/Notes""" - null null 
+2025-02-26 00:22:10 [Level: Information] CORS policy execution successful. 
+2025-02-26 00:22:10 [Level: Information] Executing endpoint '"SimpleNotesApi.Controllers.NotesController.Index (SimpleNotesApi)"' 
+2025-02-26 00:22:10 [Level: Information] Route matched with "{action = \"Index\", controller = \"Notes\"}". Executing controller action with signature "System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Index()" on controller "SimpleNotesApi.Controllers.NotesController" ("SimpleNotesApi"). 
+2025-02-26 00:22:10 [Level: Information] Executed DbCommand ("2"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT [n].[Id], [n].[Created], [n].[Description], [n].[Title]
+FROM [Notes] AS [n]" 
+2025-02-26 00:22:10 [Level: Information] Executing "OkObjectResult", writing value of type '"System.Collections.Generic.List`1[[SimpleNotesApi.Models.Note, SimpleNotesApi, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]"'. 
+2025-02-26 00:22:10 [Level: Information] Executed action "SimpleNotesApi.Controllers.NotesController.Index (SimpleNotesApi)" in 6.9504ms 
+2025-02-26 00:22:10 [Level: Information] Executed endpoint '"SimpleNotesApi.Controllers.NotesController.Index (SimpleNotesApi)"' 
+2025-02-26 00:22:10 [Level: Information] Request finished "HTTP/2" "GET" "https"://"localhost:7123""""/api/Notes""" - 200 null "application/json; charset=utf-8" 9.1347ms 
+2025-02-26 00:22:10 [Level: Information] Request starting "HTTP/2" "GET" "https"://"localhost:7123""""/api/Notes""" - null null 
+2025-02-26 00:22:10 [Level: Information] CORS policy execution successful. 
+2025-02-26 00:22:10 [Level: Information] Executing endpoint '"SimpleNotesApi.Controllers.NotesController.Index (SimpleNotesApi)"' 
+2025-02-26 00:22:10 [Level: Information] Route matched with "{action = \"Index\", controller = \"Notes\"}". Executing controller action with signature "System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Index()" on controller "SimpleNotesApi.Controllers.NotesController" ("SimpleNotesApi"). 
+2025-02-26 00:22:10 [Level: Information] Executed DbCommand ("2"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT [n].[Id], [n].[Created], [n].[Description], [n].[Title]
+FROM [Notes] AS [n]" 
+2025-02-26 00:22:10 [Level: Information] Executing "OkObjectResult", writing value of type '"System.Collections.Generic.List`1[[SimpleNotesApi.Models.Note, SimpleNotesApi, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]"'. 
+2025-02-26 00:22:10 [Level: Information] Executed action "SimpleNotesApi.Controllers.NotesController.Index (SimpleNotesApi)" in 5.2762ms 
+2025-02-26 00:22:10 [Level: Information] Executed endpoint '"SimpleNotesApi.Controllers.NotesController.Index (SimpleNotesApi)"' 
+2025-02-26 00:22:10 [Level: Information] Request finished "HTTP/2" "GET" "https"://"localhost:7123""""/api/Notes""" - 200 null "application/json; charset=utf-8" 6.8763ms 
+2025-02-26 00:22:16 [Level: Information] Request starting "HTTP/2" "GET" "https"://"localhost:7123""""/api/Notes""" - null null 
+2025-02-26 00:22:16 [Level: Information] CORS policy execution successful. 
+2025-02-26 00:22:16 [Level: Information] Executing endpoint '"SimpleNotesApi.Controllers.NotesController.Index (SimpleNotesApi)"' 
+2025-02-26 00:22:16 [Level: Information] Route matched with "{action = \"Index\", controller = \"Notes\"}". Executing controller action with signature "System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Index()" on controller "SimpleNotesApi.Controllers.NotesController" ("SimpleNotesApi"). 
+2025-02-26 00:22:16 [Level: Information] Executed DbCommand ("2"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT [n].[Id], [n].[Created], [n].[Description], [n].[Title]
+FROM [Notes] AS [n]" 
+2025-02-26 00:22:16 [Level: Information] Executing "OkObjectResult", writing value of type '"System.Collections.Generic.List`1[[SimpleNotesApi.Models.Note, SimpleNotesApi, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]"'. 
+2025-02-26 00:22:16 [Level: Information] Executed action "SimpleNotesApi.Controllers.NotesController.Index (SimpleNotesApi)" in 8.4173ms 
+2025-02-26 00:22:16 [Level: Information] Executed endpoint '"SimpleNotesApi.Controllers.NotesController.Index (SimpleNotesApi)"' 
+2025-02-26 00:22:16 [Level: Information] Request finished "HTTP/2" "GET" "https"://"localhost:7123""""/api/Notes""" - 200 null "application/json; charset=utf-8" 11.2617ms 
+2025-02-26 00:22:18 [Level: Information] Request starting "HTTP/2" "GET" "https"://"localhost:7123""""/api/Notes""" - null null 
+2025-02-26 00:22:18 [Level: Information] CORS policy execution successful. 
+2025-02-26 00:22:18 [Level: Information] Executing endpoint '"SimpleNotesApi.Controllers.NotesController.Index (SimpleNotesApi)"' 
+2025-02-26 00:22:18 [Level: Information] Route matched with "{action = \"Index\", controller = \"Notes\"}". Executing controller action with signature "System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Index()" on controller "SimpleNotesApi.Controllers.NotesController" ("SimpleNotesApi"). 
+2025-02-26 00:22:18 [Level: Information] Executed DbCommand ("4"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT [n].[Id], [n].[Created], [n].[Description], [n].[Title]
+FROM [Notes] AS [n]" 
+2025-02-26 00:22:18 [Level: Information] Executing "OkObjectResult", writing value of type '"System.Collections.Generic.List`1[[SimpleNotesApi.Models.Note, SimpleNotesApi, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]"'. 
+2025-02-26 00:22:18 [Level: Information] Executed action "SimpleNotesApi.Controllers.NotesController.Index (SimpleNotesApi)" in 6.5622ms 
+2025-02-26 00:22:18 [Level: Information] Executed endpoint '"SimpleNotesApi.Controllers.NotesController.Index (SimpleNotesApi)"' 
+2025-02-26 00:22:18 [Level: Information] Request finished "HTTP/2" "GET" "https"://"localhost:7123""""/api/Notes""" - 200 null "application/json; charset=utf-8" 7.7939ms 
+2025-02-26 00:22:45 [Level: Information] Request starting "HTTP/2" "GET" "https"://"localhost:7123""""/api/Notes""" - null null 
+2025-02-26 00:22:45 [Level: Information] CORS policy execution successful. 
+2025-02-26 00:22:45 [Level: Information] Executing endpoint '"SimpleNotesApi.Controllers.NotesController.Index (SimpleNotesApi)"' 
+2025-02-26 00:22:45 [Level: Information] Route matched with "{action = \"Index\", controller = \"Notes\"}". Executing controller action with signature "System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Index()" on controller "SimpleNotesApi.Controllers.NotesController" ("SimpleNotesApi"). 
+2025-02-26 00:22:45 [Level: Information] Executed DbCommand ("1"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT [n].[Id], [n].[Created], [n].[Description], [n].[Title]
+FROM [Notes] AS [n]" 
+2025-02-26 00:22:45 [Level: Information] Executing "OkObjectResult", writing value of type '"System.Collections.Generic.List`1[[SimpleNotesApi.Models.Note, SimpleNotesApi, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]"'. 
+2025-02-26 00:22:45 [Level: Information] Executed action "SimpleNotesApi.Controllers.NotesController.Index (SimpleNotesApi)" in 5.1526ms 
+2025-02-26 00:22:45 [Level: Information] Executed endpoint '"SimpleNotesApi.Controllers.NotesController.Index (SimpleNotesApi)"' 
+2025-02-26 00:22:45 [Level: Information] Request finished "HTTP/2" "GET" "https"://"localhost:7123""""/api/Notes""" - 200 null "application/json; charset=utf-8" 6.3944ms 
+2025-02-26 00:22:56 [Level: Information] Request starting "HTTP/2" "GET" "https"://"localhost:7123""""/api/Notes""" - null null 
+2025-02-26 00:22:56 [Level: Information] CORS policy execution successful. 
+2025-02-26 00:22:56 [Level: Information] Executing endpoint '"SimpleNotesApi.Controllers.NotesController.Index (SimpleNotesApi)"' 
+2025-02-26 00:22:56 [Level: Information] Route matched with "{action = \"Index\", controller = \"Notes\"}". Executing controller action with signature "System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Index()" on controller "SimpleNotesApi.Controllers.NotesController" ("SimpleNotesApi"). 
+2025-02-26 00:22:56 [Level: Information] Executed DbCommand ("4"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT [n].[Id], [n].[Created], [n].[Description], [n].[Title]
+FROM [Notes] AS [n]" 
+2025-02-26 00:22:56 [Level: Information] Executing "OkObjectResult", writing value of type '"System.Collections.Generic.List`1[[SimpleNotesApi.Models.Note, SimpleNotesApi, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]"'. 
+2025-02-26 00:22:56 [Level: Information] Executed action "SimpleNotesApi.Controllers.NotesController.Index (SimpleNotesApi)" in 6.1962ms 
+2025-02-26 00:22:56 [Level: Information] Executed endpoint '"SimpleNotesApi.Controllers.NotesController.Index (SimpleNotesApi)"' 
+2025-02-26 00:22:56 [Level: Information] Request finished "HTTP/2" "GET" "https"://"localhost:7123""""/api/Notes""" - 200 null "application/json; charset=utf-8" 7.2249ms 
+2025-02-26 00:23:13 [Level: Information] Request starting "HTTP/2" "GET" "https"://"localhost:7123""""/api/Notes""" - null null 
+2025-02-26 00:23:13 [Level: Information] CORS policy execution successful. 
+2025-02-26 00:23:13 [Level: Information] Executing endpoint '"SimpleNotesApi.Controllers.NotesController.Index (SimpleNotesApi)"' 
+2025-02-26 00:23:13 [Level: Information] Route matched with "{action = \"Index\", controller = \"Notes\"}". Executing controller action with signature "System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Index()" on controller "SimpleNotesApi.Controllers.NotesController" ("SimpleNotesApi"). 
+2025-02-26 00:23:13 [Level: Information] Executed DbCommand ("1"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT [n].[Id], [n].[Created], [n].[Description], [n].[Title]
+FROM [Notes] AS [n]" 
+2025-02-26 00:23:13 [Level: Information] Executing "OkObjectResult", writing value of type '"System.Collections.Generic.List`1[[SimpleNotesApi.Models.Note, SimpleNotesApi, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]"'. 
+2025-02-26 00:23:13 [Level: Information] Executed action "SimpleNotesApi.Controllers.NotesController.Index (SimpleNotesApi)" in 3.4194ms 
+2025-02-26 00:23:13 [Level: Information] Executed endpoint '"SimpleNotesApi.Controllers.NotesController.Index (SimpleNotesApi)"' 
+2025-02-26 00:23:13 [Level: Information] Request finished "HTTP/2" "GET" "https"://"localhost:7123""""/api/Notes""" - 200 null "application/json; charset=utf-8" 4.3789ms 
+2025-02-26 00:23:13 [Level: Information] Request starting "HTTP/2" "GET" "https"://"localhost:7123""""/api/Notes""" - null null 
+2025-02-26 00:23:13 [Level: Information] CORS policy execution successful. 
+2025-02-26 00:23:13 [Level: Information] Executing endpoint '"SimpleNotesApi.Controllers.NotesController.Index (SimpleNotesApi)"' 
+2025-02-26 00:23:13 [Level: Information] Route matched with "{action = \"Index\", controller = \"Notes\"}". Executing controller action with signature "System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Index()" on controller "SimpleNotesApi.Controllers.NotesController" ("SimpleNotesApi"). 
+2025-02-26 00:23:13 [Level: Information] Executed DbCommand ("1"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT [n].[Id], [n].[Created], [n].[Description], [n].[Title]
+FROM [Notes] AS [n]" 
+2025-02-26 00:23:13 [Level: Information] Executing "OkObjectResult", writing value of type '"System.Collections.Generic.List`1[[SimpleNotesApi.Models.Note, SimpleNotesApi, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]"'. 
+2025-02-26 00:23:13 [Level: Information] Executed action "SimpleNotesApi.Controllers.NotesController.Index (SimpleNotesApi)" in 4.5736ms 
+2025-02-26 00:23:13 [Level: Information] Executed endpoint '"SimpleNotesApi.Controllers.NotesController.Index (SimpleNotesApi)"' 
+2025-02-26 00:23:13 [Level: Information] Request finished "HTTP/2" "GET" "https"://"localhost:7123""""/api/Notes""" - 200 null "application/json; charset=utf-8" 5.7263ms 
+2025-02-26 00:23:18 [Level: Information] Request starting "HTTP/2" "GET" "https"://"localhost:7123""""/api/Notes""" - null null 
+2025-02-26 00:23:18 [Level: Information] CORS policy execution successful. 
+2025-02-26 00:23:18 [Level: Information] Executing endpoint '"SimpleNotesApi.Controllers.NotesController.Index (SimpleNotesApi)"' 
+2025-02-26 00:23:18 [Level: Information] Route matched with "{action = \"Index\", controller = \"Notes\"}". Executing controller action with signature "System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Index()" on controller "SimpleNotesApi.Controllers.NotesController" ("SimpleNotesApi"). 
+2025-02-26 00:23:18 [Level: Information] Executed DbCommand ("2"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT [n].[Id], [n].[Created], [n].[Description], [n].[Title]
+FROM [Notes] AS [n]" 
+2025-02-26 00:23:18 [Level: Information] Executing "OkObjectResult", writing value of type '"System.Collections.Generic.List`1[[SimpleNotesApi.Models.Note, SimpleNotesApi, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]"'. 
+2025-02-26 00:23:18 [Level: Information] Executed action "SimpleNotesApi.Controllers.NotesController.Index (SimpleNotesApi)" in 5.4953ms 
+2025-02-26 00:23:18 [Level: Information] Executed endpoint '"SimpleNotesApi.Controllers.NotesController.Index (SimpleNotesApi)"' 
+2025-02-26 00:23:18 [Level: Information] Request finished "HTTP/2" "GET" "https"://"localhost:7123""""/api/Notes""" - 200 null "application/json; charset=utf-8" 8.1781ms 
+2025-02-26 00:23:19 [Level: Information] Request starting "HTTP/2" "GET" "https"://"localhost:7123""""/api/Notes""" - null null 
+2025-02-26 00:23:19 [Level: Information] CORS policy execution successful. 
+2025-02-26 00:23:19 [Level: Information] Executing endpoint '"SimpleNotesApi.Controllers.NotesController.Index (SimpleNotesApi)"' 
+2025-02-26 00:23:19 [Level: Information] Route matched with "{action = \"Index\", controller = \"Notes\"}". Executing controller action with signature "System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Index()" on controller "SimpleNotesApi.Controllers.NotesController" ("SimpleNotesApi"). 
+2025-02-26 00:23:19 [Level: Information] Executed DbCommand ("2"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT [n].[Id], [n].[Created], [n].[Description], [n].[Title]
+FROM [Notes] AS [n]" 
+2025-02-26 00:23:19 [Level: Information] Executing "OkObjectResult", writing value of type '"System.Collections.Generic.List`1[[SimpleNotesApi.Models.Note, SimpleNotesApi, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]"'. 
+2025-02-26 00:23:19 [Level: Information] Executed action "SimpleNotesApi.Controllers.NotesController.Index (SimpleNotesApi)" in 5.3331ms 
+2025-02-26 00:23:19 [Level: Information] Executed endpoint '"SimpleNotesApi.Controllers.NotesController.Index (SimpleNotesApi)"' 
+2025-02-26 00:23:19 [Level: Information] Request finished "HTTP/2" "GET" "https"://"localhost:7123""""/api/Notes""" - 200 null "application/json; charset=utf-8" 6.4382ms 
+2025-02-26 00:23:20 [Level: Information] Request starting "HTTP/2" "GET" "https"://"localhost:7123""""/api/Notes""" - null null 
+2025-02-26 00:23:20 [Level: Information] CORS policy execution successful. 
+2025-02-26 00:23:20 [Level: Information] Executing endpoint '"SimpleNotesApi.Controllers.NotesController.Index (SimpleNotesApi)"' 
+2025-02-26 00:23:20 [Level: Information] Route matched with "{action = \"Index\", controller = \"Notes\"}". Executing controller action with signature "System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Index()" on controller "SimpleNotesApi.Controllers.NotesController" ("SimpleNotesApi"). 
+2025-02-26 00:23:20 [Level: Information] Executed DbCommand ("2"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT [n].[Id], [n].[Created], [n].[Description], [n].[Title]
+FROM [Notes] AS [n]" 
+2025-02-26 00:23:20 [Level: Information] Executing "OkObjectResult", writing value of type '"System.Collections.Generic.List`1[[SimpleNotesApi.Models.Note, SimpleNotesApi, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]"'. 
+2025-02-26 00:23:20 [Level: Information] Executed action "SimpleNotesApi.Controllers.NotesController.Index (SimpleNotesApi)" in 4.2436ms 
+2025-02-26 00:23:20 [Level: Information] Executed endpoint '"SimpleNotesApi.Controllers.NotesController.Index (SimpleNotesApi)"' 
+2025-02-26 00:23:20 [Level: Information] Request finished "HTTP/2" "GET" "https"://"localhost:7123""""/api/Notes""" - 200 null "application/json; charset=utf-8" 5.5024ms 
+2025-02-26 00:23:28 [Level: Information] Request starting "HTTP/2" "GET" "https"://"localhost:7123""""/api/Notes""" - null null 
+2025-02-26 00:23:28 [Level: Information] CORS policy execution successful. 
+2025-02-26 00:23:28 [Level: Information] Executing endpoint '"SimpleNotesApi.Controllers.NotesController.Index (SimpleNotesApi)"' 
+2025-02-26 00:23:28 [Level: Information] Route matched with "{action = \"Index\", controller = \"Notes\"}". Executing controller action with signature "System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Index()" on controller "SimpleNotesApi.Controllers.NotesController" ("SimpleNotesApi"). 
+2025-02-26 00:23:28 [Level: Information] Executed DbCommand ("1"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT [n].[Id], [n].[Created], [n].[Description], [n].[Title]
+FROM [Notes] AS [n]" 
+2025-02-26 00:23:28 [Level: Information] Executing "OkObjectResult", writing value of type '"System.Collections.Generic.List`1[[SimpleNotesApi.Models.Note, SimpleNotesApi, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]"'. 
+2025-02-26 00:23:28 [Level: Information] Executed action "SimpleNotesApi.Controllers.NotesController.Index (SimpleNotesApi)" in 5.9579ms 
+2025-02-26 00:23:28 [Level: Information] Executed endpoint '"SimpleNotesApi.Controllers.NotesController.Index (SimpleNotesApi)"' 
+2025-02-26 00:23:28 [Level: Information] Request finished "HTTP/2" "GET" "https"://"localhost:7123""""/api/Notes""" - 200 null "application/json; charset=utf-8" 7.0018ms 
+2025-02-26 00:23:32 [Level: Information] Request starting "HTTP/2" "GET" "https"://"localhost:7123""""/api/Notes/11""" - null null 
+2025-02-26 00:23:32 [Level: Information] CORS policy execution successful. 
+2025-02-26 00:23:32 [Level: Information] Executing endpoint '"SimpleNotesApi.Controllers.NotesController.Details (SimpleNotesApi)"' 
+2025-02-26 00:23:32 [Level: Information] Route matched with "{action = \"Details\", controller = \"Notes\"}". Executing controller action with signature "System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Details(Int32)" on controller "SimpleNotesApi.Controllers.NotesController" ("SimpleNotesApi"). 
+2025-02-26 00:23:32 [Level: Information] Executed DbCommand ("26"ms) [Parameters=["@__p_0='?' (DbType = Int32)"], CommandType='Text', CommandTimeout='30']"
+""SELECT TOP(1) [n].[Id], [n].[Created], [n].[Description], [n].[Title]
+FROM [Notes] AS [n]
+WHERE [n].[Id] = @__p_0" 
+2025-02-26 00:23:32 [Level: Information] Executing "OkObjectResult", writing value of type '"SimpleNotesApi.Models.Note"'. 
+2025-02-26 00:23:32 [Level: Information] Executed action "SimpleNotesApi.Controllers.NotesController.Details (SimpleNotesApi)" in 153.6363ms 
+2025-02-26 00:23:32 [Level: Information] Executed endpoint '"SimpleNotesApi.Controllers.NotesController.Details (SimpleNotesApi)"' 
+2025-02-26 00:23:32 [Level: Information] Request finished "HTTP/2" "GET" "https"://"localhost:7123""""/api/Notes/11""" - 200 null "application/json; charset=utf-8" 171.3895ms 
+2025-02-26 00:27:51 [Level: Information] Request starting "HTTP/2" "GET" "https"://"localhost:7123""""/api/Notes""" - null null 
+2025-02-26 00:27:51 [Level: Information] CORS policy execution successful. 
+2025-02-26 00:27:51 [Level: Information] Executing endpoint '"SimpleNotesApi.Controllers.NotesController.Index (SimpleNotesApi)"' 
+2025-02-26 00:27:51 [Level: Information] Route matched with "{action = \"Index\", controller = \"Notes\"}". Executing controller action with signature "System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Index()" on controller "SimpleNotesApi.Controllers.NotesController" ("SimpleNotesApi"). 
+2025-02-26 00:27:52 [Level: Information] Executed DbCommand ("7"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT [n].[Id], [n].[Created], [n].[Description], [n].[Title]
+FROM [Notes] AS [n]" 
+2025-02-26 00:27:52 [Level: Information] Executing "OkObjectResult", writing value of type '"System.Collections.Generic.List`1[[SimpleNotesApi.Models.Note, SimpleNotesApi, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]"'. 
+2025-02-26 00:27:52 [Level: Information] Executed action "SimpleNotesApi.Controllers.NotesController.Index (SimpleNotesApi)" in 100.3969ms 
+2025-02-26 00:27:52 [Level: Information] Executed endpoint '"SimpleNotesApi.Controllers.NotesController.Index (SimpleNotesApi)"' 
+2025-02-26 00:27:52 [Level: Information] Request finished "HTTP/2" "GET" "https"://"localhost:7123""""/api/Notes""" - 200 null "application/json; charset=utf-8" 101.9194ms 
+2025-02-26 00:28:53 [Level: Information] Request starting "HTTP/2" "GET" "https"://"localhost:7123""""/api/Notes""" - null null 
+2025-02-26 00:28:53 [Level: Information] CORS policy execution successful. 
+2025-02-26 00:28:53 [Level: Information] Executing endpoint '"SimpleNotesApi.Controllers.NotesController.Index (SimpleNotesApi)"' 
+2025-02-26 00:28:53 [Level: Information] Route matched with "{action = \"Index\", controller = \"Notes\"}". Executing controller action with signature "System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Index()" on controller "SimpleNotesApi.Controllers.NotesController" ("SimpleNotesApi"). 
+2025-02-26 00:28:53 [Level: Information] Executed DbCommand ("4"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT [n].[Id], [n].[Created], [n].[Description], [n].[Title]
+FROM [Notes] AS [n]" 
+2025-02-26 00:28:53 [Level: Information] Executing "OkObjectResult", writing value of type '"System.Collections.Generic.List`1[[SimpleNotesApi.Models.Note, SimpleNotesApi, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]"'. 
+2025-02-26 00:28:53 [Level: Information] Executed action "SimpleNotesApi.Controllers.NotesController.Index (SimpleNotesApi)" in 11.5469ms 
+2025-02-26 00:28:53 [Level: Information] Executed endpoint '"SimpleNotesApi.Controllers.NotesController.Index (SimpleNotesApi)"' 
+2025-02-26 00:28:53 [Level: Information] Request finished "HTTP/2" "GET" "https"://"localhost:7123""""/api/Notes""" - 200 null "application/json; charset=utf-8" 15.9644ms 
+2025-02-26 00:30:24 [Level: Information] Request starting "HTTP/2" "GET" "https"://"localhost:7123""""/api/Notes""" - null null 
+2025-02-26 00:30:24 [Level: Information] CORS policy execution successful. 
+2025-02-26 00:30:24 [Level: Information] Executing endpoint '"SimpleNotesApi.Controllers.NotesController.Index (SimpleNotesApi)"' 
+2025-02-26 00:30:24 [Level: Information] Route matched with "{action = \"Index\", controller = \"Notes\"}". Executing controller action with signature "System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Index()" on controller "SimpleNotesApi.Controllers.NotesController" ("SimpleNotesApi"). 
+2025-02-26 00:30:24 [Level: Information] Executed DbCommand ("3"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT [n].[Id], [n].[Created], [n].[Description], [n].[Title]
+FROM [Notes] AS [n]" 
+2025-02-26 00:30:24 [Level: Information] Executing "OkObjectResult", writing value of type '"System.Collections.Generic.List`1[[SimpleNotesApi.Models.Note, SimpleNotesApi, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]"'. 
+2025-02-26 00:30:24 [Level: Information] Executed action "SimpleNotesApi.Controllers.NotesController.Index (SimpleNotesApi)" in 7.0593ms 
+2025-02-26 00:30:24 [Level: Information] Executed endpoint '"SimpleNotesApi.Controllers.NotesController.Index (SimpleNotesApi)"' 
+2025-02-26 00:30:24 [Level: Information] Request finished "HTTP/2" "GET" "https"://"localhost:7123""""/api/Notes""" - 200 null "application/json; charset=utf-8" 12.25ms 
+2025-02-26 00:30:28 [Level: Information] Request starting "HTTP/2" "GET" "https"://"localhost:7123""""/api/Notes""" - null null 
+2025-02-26 00:30:28 [Level: Information] CORS policy execution successful. 
+2025-02-26 00:30:28 [Level: Information] Executing endpoint '"SimpleNotesApi.Controllers.NotesController.Index (SimpleNotesApi)"' 
+2025-02-26 00:30:28 [Level: Information] Route matched with "{action = \"Index\", controller = \"Notes\"}". Executing controller action with signature "System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Index()" on controller "SimpleNotesApi.Controllers.NotesController" ("SimpleNotesApi"). 
+2025-02-26 00:30:28 [Level: Information] Executed DbCommand ("3"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT [n].[Id], [n].[Created], [n].[Description], [n].[Title]
+FROM [Notes] AS [n]" 
+2025-02-26 00:30:28 [Level: Information] Executing "OkObjectResult", writing value of type '"System.Collections.Generic.List`1[[SimpleNotesApi.Models.Note, SimpleNotesApi, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]"'. 
+2025-02-26 00:30:28 [Level: Information] Executed action "SimpleNotesApi.Controllers.NotesController.Index (SimpleNotesApi)" in 6.6863ms 
+2025-02-26 00:30:28 [Level: Information] Executed endpoint '"SimpleNotesApi.Controllers.NotesController.Index (SimpleNotesApi)"' 
+2025-02-26 00:30:28 [Level: Information] Request finished "HTTP/2" "GET" "https"://"localhost:7123""""/api/Notes""" - 200 null "application/json; charset=utf-8" 8.7756ms 
+2025-02-26 00:30:30 [Level: Information] Request starting "HTTP/2" "GET" "https"://"localhost:7123""""/api/Notes""" - null null 
+2025-02-26 00:30:30 [Level: Information] CORS policy execution successful. 
+2025-02-26 00:30:30 [Level: Information] Executing endpoint '"SimpleNotesApi.Controllers.NotesController.Index (SimpleNotesApi)"' 
+2025-02-26 00:30:30 [Level: Information] Route matched with "{action = \"Index\", controller = \"Notes\"}". Executing controller action with signature "System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Index()" on controller "SimpleNotesApi.Controllers.NotesController" ("SimpleNotesApi"). 
+2025-02-26 00:30:30 [Level: Information] Executed DbCommand ("3"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT [n].[Id], [n].[Created], [n].[Description], [n].[Title]
+FROM [Notes] AS [n]" 
+2025-02-26 00:30:30 [Level: Information] Executing "OkObjectResult", writing value of type '"System.Collections.Generic.List`1[[SimpleNotesApi.Models.Note, SimpleNotesApi, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]"'. 
+2025-02-26 00:30:30 [Level: Information] Executed action "SimpleNotesApi.Controllers.NotesController.Index (SimpleNotesApi)" in 5.8527ms 
+2025-02-26 00:30:30 [Level: Information] Executed endpoint '"SimpleNotesApi.Controllers.NotesController.Index (SimpleNotesApi)"' 
+2025-02-26 00:30:30 [Level: Information] Request finished "HTTP/2" "GET" "https"://"localhost:7123""""/api/Notes""" - 200 null "application/json; charset=utf-8" 7.3472ms 
+2025-02-26 00:30:36 [Level: Information] Request starting "HTTP/2" "GET" "https"://"localhost:7123""""/api/Notes""" - null null 
+2025-02-26 00:30:36 [Level: Information] CORS policy execution successful. 
+2025-02-26 00:30:36 [Level: Information] Executing endpoint '"SimpleNotesApi.Controllers.NotesController.Index (SimpleNotesApi)"' 
+2025-02-26 00:30:36 [Level: Information] Route matched with "{action = \"Index\", controller = \"Notes\"}". Executing controller action with signature "System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Index()" on controller "SimpleNotesApi.Controllers.NotesController" ("SimpleNotesApi"). 
+2025-02-26 00:30:36 [Level: Information] Executed DbCommand ("3"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT [n].[Id], [n].[Created], [n].[Description], [n].[Title]
+FROM [Notes] AS [n]" 
+2025-02-26 00:30:36 [Level: Information] Executing "OkObjectResult", writing value of type '"System.Collections.Generic.List`1[[SimpleNotesApi.Models.Note, SimpleNotesApi, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]"'. 
+2025-02-26 00:30:36 [Level: Information] Executed action "SimpleNotesApi.Controllers.NotesController.Index (SimpleNotesApi)" in 4.771ms 
+2025-02-26 00:30:36 [Level: Information] Executed endpoint '"SimpleNotesApi.Controllers.NotesController.Index (SimpleNotesApi)"' 
+2025-02-26 00:30:36 [Level: Information] Request finished "HTTP/2" "GET" "https"://"localhost:7123""""/api/Notes""" - 200 null "application/json; charset=utf-8" 6.0607ms 
+2025-02-26 00:30:38 [Level: Information] Request starting "HTTP/2" "GET" "https"://"localhost:7123""""/api/Notes""" - null null 
+2025-02-26 00:30:38 [Level: Information] CORS policy execution successful. 
+2025-02-26 00:30:38 [Level: Information] Executing endpoint '"SimpleNotesApi.Controllers.NotesController.Index (SimpleNotesApi)"' 
+2025-02-26 00:30:38 [Level: Information] Route matched with "{action = \"Index\", controller = \"Notes\"}". Executing controller action with signature "System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Index()" on controller "SimpleNotesApi.Controllers.NotesController" ("SimpleNotesApi"). 
+2025-02-26 00:30:38 [Level: Information] Executed DbCommand ("3"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT [n].[Id], [n].[Created], [n].[Description], [n].[Title]
+FROM [Notes] AS [n]" 
+2025-02-26 00:30:38 [Level: Information] Executing "OkObjectResult", writing value of type '"System.Collections.Generic.List`1[[SimpleNotesApi.Models.Note, SimpleNotesApi, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]"'. 
+2025-02-26 00:30:38 [Level: Information] Executed action "SimpleNotesApi.Controllers.NotesController.Index (SimpleNotesApi)" in 4.3649ms 
+2025-02-26 00:30:38 [Level: Information] Executed endpoint '"SimpleNotesApi.Controllers.NotesController.Index (SimpleNotesApi)"' 
+2025-02-26 00:30:38 [Level: Information] Request finished "HTTP/2" "GET" "https"://"localhost:7123""""/api/Notes""" - 200 null "application/json; charset=utf-8" 5.3089ms 
+2025-02-26 00:39:06 [Level: Information] Request starting "HTTP/2" "GET" "https"://"localhost:7123""""/api/Notes""" - null null 
+2025-02-26 00:39:06 [Level: Information] CORS policy execution successful. 
+2025-02-26 00:39:06 [Level: Information] Executing endpoint '"SimpleNotesApi.Controllers.NotesController.Index (SimpleNotesApi)"' 
+2025-02-26 00:39:06 [Level: Information] Route matched with "{action = \"Index\", controller = \"Notes\"}". Executing controller action with signature "System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Index()" on controller "SimpleNotesApi.Controllers.NotesController" ("SimpleNotesApi"). 
+2025-02-26 00:39:06 [Level: Information] Executed DbCommand ("13"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT [n].[Id], [n].[Created], [n].[Description], [n].[Title]
+FROM [Notes] AS [n]" 
+2025-02-26 00:39:06 [Level: Information] Executing "OkObjectResult", writing value of type '"System.Collections.Generic.List`1[[SimpleNotesApi.Models.Note, SimpleNotesApi, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]"'. 
+2025-02-26 00:39:06 [Level: Information] Executed action "SimpleNotesApi.Controllers.NotesController.Index (SimpleNotesApi)" in 143.8462ms 
+2025-02-26 00:39:06 [Level: Information] Executed endpoint '"SimpleNotesApi.Controllers.NotesController.Index (SimpleNotesApi)"' 
+2025-02-26 00:39:06 [Level: Information] Request finished "HTTP/2" "GET" "https"://"localhost:7123""""/api/Notes""" - 200 null "application/json; charset=utf-8" 151.6603ms 
+2025-02-26 00:40:02 [Level: Information] Request starting "HTTP/2" "GET" "https"://"localhost:7123""""/api/Notes/11""" - null null 
+2025-02-26 00:40:02 [Level: Information] CORS policy execution successful. 
+2025-02-26 00:40:02 [Level: Information] Executing endpoint '"SimpleNotesApi.Controllers.NotesController.Details (SimpleNotesApi)"' 
+2025-02-26 00:40:02 [Level: Information] Route matched with "{action = \"Details\", controller = \"Notes\"}". Executing controller action with signature "System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Details(Int32)" on controller "SimpleNotesApi.Controllers.NotesController" ("SimpleNotesApi"). 
+2025-02-26 00:40:02 [Level: Information] Executed DbCommand ("6"ms) [Parameters=["@__p_0='?' (DbType = Int32)"], CommandType='Text', CommandTimeout='30']"
+""SELECT TOP(1) [n].[Id], [n].[Created], [n].[Description], [n].[Title]
+FROM [Notes] AS [n]
+WHERE [n].[Id] = @__p_0" 
+2025-02-26 00:40:02 [Level: Information] Executing "OkObjectResult", writing value of type '"SimpleNotesApi.Models.Note"'. 
+2025-02-26 00:40:02 [Level: Information] Executed action "SimpleNotesApi.Controllers.NotesController.Details (SimpleNotesApi)" in 23.1894ms 
+2025-02-26 00:40:02 [Level: Information] Executed endpoint '"SimpleNotesApi.Controllers.NotesController.Details (SimpleNotesApi)"' 
+2025-02-26 00:40:02 [Level: Information] Request finished "HTTP/2" "GET" "https"://"localhost:7123""""/api/Notes/11""" - 200 null "application/json; charset=utf-8" 26.1602ms 
+2025-02-26 00:40:03 [Level: Information] Request starting "HTTP/2" "GET" "https"://"localhost:7123""""/api/Notes/11""" - null null 
+2025-02-26 00:40:03 [Level: Information] CORS policy execution successful. 
+2025-02-26 00:40:03 [Level: Information] Executing endpoint '"SimpleNotesApi.Controllers.NotesController.Details (SimpleNotesApi)"' 
+2025-02-26 00:40:03 [Level: Information] Route matched with "{action = \"Details\", controller = \"Notes\"}". Executing controller action with signature "System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Details(Int32)" on controller "SimpleNotesApi.Controllers.NotesController" ("SimpleNotesApi"). 
+2025-02-26 00:40:03 [Level: Information] Executed DbCommand ("3"ms) [Parameters=["@__p_0='?' (DbType = Int32)"], CommandType='Text', CommandTimeout='30']"
+""SELECT TOP(1) [n].[Id], [n].[Created], [n].[Description], [n].[Title]
+FROM [Notes] AS [n]
+WHERE [n].[Id] = @__p_0" 
+2025-02-26 00:40:03 [Level: Information] Executing "OkObjectResult", writing value of type '"SimpleNotesApi.Models.Note"'. 
+2025-02-26 00:40:03 [Level: Information] Executed action "SimpleNotesApi.Controllers.NotesController.Details (SimpleNotesApi)" in 6.0678ms 
+2025-02-26 00:40:03 [Level: Information] Executed endpoint '"SimpleNotesApi.Controllers.NotesController.Details (SimpleNotesApi)"' 
+2025-02-26 00:40:03 [Level: Information] Request finished "HTTP/2" "GET" "https"://"localhost:7123""""/api/Notes/11""" - 200 null "application/json; charset=utf-8" 7.1986ms 
+2025-02-26 00:40:12 [Level: Information] Request starting "HTTP/2" "GET" "https"://"localhost:7123""""/api/Notes""" - null null 
+2025-02-26 00:40:12 [Level: Information] CORS policy execution successful. 
+2025-02-26 00:40:12 [Level: Information] Executing endpoint '"SimpleNotesApi.Controllers.NotesController.Index (SimpleNotesApi)"' 
+2025-02-26 00:40:12 [Level: Information] Route matched with "{action = \"Index\", controller = \"Notes\"}". Executing controller action with signature "System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Index()" on controller "SimpleNotesApi.Controllers.NotesController" ("SimpleNotesApi"). 
+2025-02-26 00:40:12 [Level: Information] Executed DbCommand ("4"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT [n].[Id], [n].[Created], [n].[Description], [n].[Title]
+FROM [Notes] AS [n]" 
+2025-02-26 00:40:12 [Level: Information] Executing "OkObjectResult", writing value of type '"System.Collections.Generic.List`1[[SimpleNotesApi.Models.Note, SimpleNotesApi, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]"'. 
+2025-02-26 00:40:12 [Level: Information] Executed action "SimpleNotesApi.Controllers.NotesController.Index (SimpleNotesApi)" in 6.4778ms 
+2025-02-26 00:40:12 [Level: Information] Executed endpoint '"SimpleNotesApi.Controllers.NotesController.Index (SimpleNotesApi)"' 
+2025-02-26 00:40:12 [Level: Information] Request finished "HTTP/2" "GET" "https"://"localhost:7123""""/api/Notes""" - 200 null "application/json; charset=utf-8" 8.6321ms 
+2025-02-26 00:40:38 [Level: Information] Request starting "HTTP/2" "GET" "https"://"localhost:7123""""/api/Notes""" - null null 
+2025-02-26 00:40:38 [Level: Information] CORS policy execution successful. 
+2025-02-26 00:40:38 [Level: Information] Executing endpoint '"SimpleNotesApi.Controllers.NotesController.Index (SimpleNotesApi)"' 
+2025-02-26 00:40:38 [Level: Information] Route matched with "{action = \"Index\", controller = \"Notes\"}". Executing controller action with signature "System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Index()" on controller "SimpleNotesApi.Controllers.NotesController" ("SimpleNotesApi"). 
+2025-02-26 00:40:38 [Level: Information] Executed DbCommand ("3"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT [n].[Id], [n].[Created], [n].[Description], [n].[Title]
+FROM [Notes] AS [n]" 
+2025-02-26 00:40:38 [Level: Information] Executing "OkObjectResult", writing value of type '"System.Collections.Generic.List`1[[SimpleNotesApi.Models.Note, SimpleNotesApi, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]"'. 
+2025-02-26 00:40:38 [Level: Information] Executed action "SimpleNotesApi.Controllers.NotesController.Index (SimpleNotesApi)" in 10.4965ms 
+2025-02-26 00:40:38 [Level: Information] Executed endpoint '"SimpleNotesApi.Controllers.NotesController.Index (SimpleNotesApi)"' 
+2025-02-26 00:40:38 [Level: Information] Request finished "HTTP/2" "GET" "https"://"localhost:7123""""/api/Notes""" - 200 null "application/json; charset=utf-8" 11.2365ms 
+2025-02-26 00:40:42 [Level: Information] Request starting "HTTP/2" "GET" "https"://"localhost:7123""""/api/Notes""" - null null 
+2025-02-26 00:40:42 [Level: Information] CORS policy execution successful. 
+2025-02-26 00:40:42 [Level: Information] Executing endpoint '"SimpleNotesApi.Controllers.NotesController.Index (SimpleNotesApi)"' 
+2025-02-26 00:40:42 [Level: Information] Route matched with "{action = \"Index\", controller = \"Notes\"}". Executing controller action with signature "System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Index()" on controller "SimpleNotesApi.Controllers.NotesController" ("SimpleNotesApi"). 
+2025-02-26 00:40:42 [Level: Information] Executed DbCommand ("2"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT [n].[Id], [n].[Created], [n].[Description], [n].[Title]
+FROM [Notes] AS [n]" 
+2025-02-26 00:40:42 [Level: Information] Executing "OkObjectResult", writing value of type '"System.Collections.Generic.List`1[[SimpleNotesApi.Models.Note, SimpleNotesApi, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]"'. 
+2025-02-26 00:40:42 [Level: Information] Executed action "SimpleNotesApi.Controllers.NotesController.Index (SimpleNotesApi)" in 4.5899ms 
+2025-02-26 00:40:42 [Level: Information] Executed endpoint '"SimpleNotesApi.Controllers.NotesController.Index (SimpleNotesApi)"' 
+2025-02-26 00:40:42 [Level: Information] Request finished "HTTP/2" "GET" "https"://"localhost:7123""""/api/Notes""" - 200 null "application/json; charset=utf-8" 5.6917ms 
+2025-02-26 00:40:56 [Level: Information] Request starting "HTTP/2" "GET" "https"://"localhost:7123""""/api/Notes""" - null null 
+2025-02-26 00:40:56 [Level: Information] CORS policy execution successful. 
+2025-02-26 00:40:56 [Level: Information] Executing endpoint '"SimpleNotesApi.Controllers.NotesController.Index (SimpleNotesApi)"' 
+2025-02-26 00:40:56 [Level: Information] Route matched with "{action = \"Index\", controller = \"Notes\"}". Executing controller action with signature "System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Index()" on controller "SimpleNotesApi.Controllers.NotesController" ("SimpleNotesApi"). 
+2025-02-26 00:40:56 [Level: Information] Executed DbCommand ("1"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT [n].[Id], [n].[Created], [n].[Description], [n].[Title]
+FROM [Notes] AS [n]" 
+2025-02-26 00:40:56 [Level: Information] Executing "OkObjectResult", writing value of type '"System.Collections.Generic.List`1[[SimpleNotesApi.Models.Note, SimpleNotesApi, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]"'. 
+2025-02-26 00:40:56 [Level: Information] Executed action "SimpleNotesApi.Controllers.NotesController.Index (SimpleNotesApi)" in 3.8622ms 
+2025-02-26 00:40:56 [Level: Information] Executed endpoint '"SimpleNotesApi.Controllers.NotesController.Index (SimpleNotesApi)"' 
+2025-02-26 00:40:56 [Level: Information] Request finished "HTTP/2" "GET" "https"://"localhost:7123""""/api/Notes""" - 200 null "application/json; charset=utf-8" 5.0672ms 
+2025-02-26 00:41:01 [Level: Information] Request starting "HTTP/2" "GET" "https"://"localhost:7123""""/api/Notes""" - null null 
+2025-02-26 00:41:01 [Level: Information] CORS policy execution successful. 
+2025-02-26 00:41:01 [Level: Information] Executing endpoint '"SimpleNotesApi.Controllers.NotesController.Index (SimpleNotesApi)"' 
+2025-02-26 00:41:01 [Level: Information] Route matched with "{action = \"Index\", controller = \"Notes\"}". Executing controller action with signature "System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Index()" on controller "SimpleNotesApi.Controllers.NotesController" ("SimpleNotesApi"). 
+2025-02-26 00:41:01 [Level: Information] Executed DbCommand ("3"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT [n].[Id], [n].[Created], [n].[Description], [n].[Title]
+FROM [Notes] AS [n]" 
+2025-02-26 00:41:01 [Level: Information] Executing "OkObjectResult", writing value of type '"System.Collections.Generic.List`1[[SimpleNotesApi.Models.Note, SimpleNotesApi, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]"'. 
+2025-02-26 00:41:01 [Level: Information] Executed action "SimpleNotesApi.Controllers.NotesController.Index (SimpleNotesApi)" in 5.4769ms 
+2025-02-26 00:41:01 [Level: Information] Executed endpoint '"SimpleNotesApi.Controllers.NotesController.Index (SimpleNotesApi)"' 
+2025-02-26 00:41:01 [Level: Information] Request finished "HTTP/2" "GET" "https"://"localhost:7123""""/api/Notes""" - 200 null "application/json; charset=utf-8" 6.9316ms 
+2025-02-26 00:41:03 [Level: Information] Request starting "HTTP/2" "GET" "https"://"localhost:7123""""/api/Notes/11""" - null null 
+2025-02-26 00:41:03 [Level: Information] CORS policy execution successful. 
+2025-02-26 00:41:03 [Level: Information] Executing endpoint '"SimpleNotesApi.Controllers.NotesController.Details (SimpleNotesApi)"' 
+2025-02-26 00:41:03 [Level: Information] Route matched with "{action = \"Details\", controller = \"Notes\"}". Executing controller action with signature "System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Details(Int32)" on controller "SimpleNotesApi.Controllers.NotesController" ("SimpleNotesApi"). 
+2025-02-26 00:41:03 [Level: Information] Executed DbCommand ("8"ms) [Parameters=["@__p_0='?' (DbType = Int32)"], CommandType='Text', CommandTimeout='30']"
+""SELECT TOP(1) [n].[Id], [n].[Created], [n].[Description], [n].[Title]
+FROM [Notes] AS [n]
+WHERE [n].[Id] = @__p_0" 
+2025-02-26 00:41:03 [Level: Information] Executing "OkObjectResult", writing value of type '"SimpleNotesApi.Models.Note"'. 
+2025-02-26 00:41:03 [Level: Information] Executed action "SimpleNotesApi.Controllers.NotesController.Details (SimpleNotesApi)" in 11.5878ms 
+2025-02-26 00:41:03 [Level: Information] Executed endpoint '"SimpleNotesApi.Controllers.NotesController.Details (SimpleNotesApi)"' 
+2025-02-26 00:41:03 [Level: Information] Request finished "HTTP/2" "GET" "https"://"localhost:7123""""/api/Notes/11""" - 200 null "application/json; charset=utf-8" 12.7946ms 
+2025-02-26 00:41:04 [Level: Information] Request starting "HTTP/2" "GET" "https"://"localhost:7123""""/api/Notes""" - null null 
+2025-02-26 00:41:04 [Level: Information] CORS policy execution successful. 
+2025-02-26 00:41:04 [Level: Information] Executing endpoint '"SimpleNotesApi.Controllers.NotesController.Index (SimpleNotesApi)"' 
+2025-02-26 00:41:04 [Level: Information] Route matched with "{action = \"Index\", controller = \"Notes\"}". Executing controller action with signature "System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Index()" on controller "SimpleNotesApi.Controllers.NotesController" ("SimpleNotesApi"). 
+2025-02-26 00:41:04 [Level: Information] Executed DbCommand ("5"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT [n].[Id], [n].[Created], [n].[Description], [n].[Title]
+FROM [Notes] AS [n]" 
+2025-02-26 00:41:04 [Level: Information] Executing "OkObjectResult", writing value of type '"System.Collections.Generic.List`1[[SimpleNotesApi.Models.Note, SimpleNotesApi, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]"'. 
+2025-02-26 00:41:04 [Level: Information] Executed action "SimpleNotesApi.Controllers.NotesController.Index (SimpleNotesApi)" in 7.2601ms 
+2025-02-26 00:41:04 [Level: Information] Executed endpoint '"SimpleNotesApi.Controllers.NotesController.Index (SimpleNotesApi)"' 
+2025-02-26 00:41:04 [Level: Information] Request finished "HTTP/2" "GET" "https"://"localhost:7123""""/api/Notes""" - 200 null "application/json; charset=utf-8" 8.9101ms 
+2025-02-26 00:41:19 [Level: Information] Request starting "HTTP/2" "GET" "https"://"localhost:7123""""/api/Notes""" - null null 
+2025-02-26 00:41:19 [Level: Information] CORS policy execution successful. 
+2025-02-26 00:41:19 [Level: Information] Executing endpoint '"SimpleNotesApi.Controllers.NotesController.Index (SimpleNotesApi)"' 
+2025-02-26 00:41:19 [Level: Information] Route matched with "{action = \"Index\", controller = \"Notes\"}". Executing controller action with signature "System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Index()" on controller "SimpleNotesApi.Controllers.NotesController" ("SimpleNotesApi"). 
+2025-02-26 00:41:19 [Level: Information] Executed DbCommand ("2"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT [n].[Id], [n].[Created], [n].[Description], [n].[Title]
+FROM [Notes] AS [n]" 
+2025-02-26 00:41:19 [Level: Information] Executing "OkObjectResult", writing value of type '"System.Collections.Generic.List`1[[SimpleNotesApi.Models.Note, SimpleNotesApi, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]"'. 
+2025-02-26 00:41:19 [Level: Information] Executed action "SimpleNotesApi.Controllers.NotesController.Index (SimpleNotesApi)" in 9.2643ms 
+2025-02-26 00:41:19 [Level: Information] Executed endpoint '"SimpleNotesApi.Controllers.NotesController.Index (SimpleNotesApi)"' 
+2025-02-26 00:41:19 [Level: Information] Request finished "HTTP/2" "GET" "https"://"localhost:7123""""/api/Notes""" - 200 null "application/json; charset=utf-8" 10.7515ms 
+2025-02-26 00:42:40 [Level: Information] Request starting "HTTP/2" "GET" "https"://"localhost:7123""""/api/Notes""" - null null 
+2025-02-26 00:42:40 [Level: Information] CORS policy execution successful. 
+2025-02-26 00:42:40 [Level: Information] Executing endpoint '"SimpleNotesApi.Controllers.NotesController.Index (SimpleNotesApi)"' 
+2025-02-26 00:42:40 [Level: Information] Route matched with "{action = \"Index\", controller = \"Notes\"}". Executing controller action with signature "System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Index()" on controller "SimpleNotesApi.Controllers.NotesController" ("SimpleNotesApi"). 
+2025-02-26 00:42:40 [Level: Information] Executed DbCommand ("3"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT [n].[Id], [n].[Created], [n].[Description], [n].[Title]
+FROM [Notes] AS [n]" 
+2025-02-26 00:42:40 [Level: Information] Executing "OkObjectResult", writing value of type '"System.Collections.Generic.List`1[[SimpleNotesApi.Models.Note, SimpleNotesApi, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]"'. 
+2025-02-26 00:42:40 [Level: Information] Executed action "SimpleNotesApi.Controllers.NotesController.Index (SimpleNotesApi)" in 9.1477ms 
+2025-02-26 00:42:40 [Level: Information] Executed endpoint '"SimpleNotesApi.Controllers.NotesController.Index (SimpleNotesApi)"' 
+2025-02-26 00:42:40 [Level: Information] Request finished "HTTP/2" "GET" "https"://"localhost:7123""""/api/Notes""" - 200 null "application/json; charset=utf-8" 9.6619ms 
